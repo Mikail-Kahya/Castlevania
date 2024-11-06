@@ -1,0 +1,12 @@
+{
+  "maxHp": 120,
+  "maxStam": 30,
+  "maxMana": 15,
+  "mana": 10,
+  "exp": 0,
+  "defense": 0,
+  "spawn":{ 
+    "x": 850,
+    "y": 100
+  }
+}

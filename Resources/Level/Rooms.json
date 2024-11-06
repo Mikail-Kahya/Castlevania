@@ -1,0 +1,1348 @@
+{
+    "rooms":[
+      {
+        "id": 0,
+        "type": 0,
+        "bounds": {
+          "x": 828,
+          "y": 0,
+          "w": 2050,
+          "h": 360
+        },
+        "objects":[
+          {
+            "id": "Spawn",
+            "x": 0,
+            "y": 33,
+            "flipped": false
+          },
+          {
+            "id": "Spawn",
+            "x": 1970,
+            "y": 33,
+            "flipped": true
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "type": 1,
+        "bounds": {
+          "x": 2878,
+          "y": 0,
+          "w": 640,
+          "h": 1210
+        },
+        "objects":[
+          {
+            "id": "Spawn",
+            "x": 0,
+            "y": 930,
+            "flipped": false
+          },
+          {
+            "id": "Spawn",
+            "x": 0,
+            "y": 19,
+            "flipped": false
+          },
+          {
+            "id": "Spawn",
+            "x": 614,
+            "y": 930,
+            "flipped": true
+          },
+          {
+            "id": "Pole",
+            "x": 26,
+            "y": 1095,
+            "flipped": false
+          },
+          {
+            "id": "Pole",
+            "x": 539,
+            "y": 1095,
+            "flipped": true
+          },
+          {
+            "id": "Pole",
+            "x": 539,
+            "y": 924,
+            "flipped": true
+          },
+          {
+            "id": "Pole",
+            "x": 539,
+            "y": 821,
+            "flipped": true
+          },
+          {
+            "id": "Pole",
+            "x": 26,
+            "y": 657,
+            "flipped": false
+          },
+          {
+            "id": "Pole",
+            "x": 26,
+            "y": 557,
+            "flipped": false
+          },
+          {
+            "id": "Pole",
+            "x": 26,
+            "y": 424,
+            "flipped": false
+          },
+          {
+            "id": "Platform",
+            "x": 423,
+            "y": 1025,
+            "flipped": false
+          },
+          {
+            "id": "Platform",
+            "x": 466,
+            "y": 1025,
+            "flipped": false
+          },
+          {
+            "id": "Platform",
+            "x": 400,
+            "y": 744,
+            "flipped": true
+          },
+          {
+            "id": "Platform",
+            "x": 443,
+            "y": 744,
+            "flipped": true
+          },
+          {
+            "id": "Platform",
+            "x": 188,
+            "y": 520,
+            "flipped": false
+          },
+          {
+            "id": "Platform",
+            "x": 231,
+            "y": 520,
+            "flipped": false
+          },
+          {
+            "id": "Platform",
+            "x": 310,
+            "y": 373,
+            "flipped": true
+          },
+          {
+            "id": "Platform",
+            "x": 273,
+            "y": 277,
+            "flipped": false
+          },
+          {
+            "id": "Floor",
+            "x": 26,
+            "y": 969,
+            "flipped": false
+          },
+          {
+            "id": "Floor",
+            "x": 86,
+            "y": 969,
+            "flipped": false
+          },
+          {
+            "id": "Floor",
+            "x": 146,
+            "y": 969,
+            "flipped": false
+          },
+          {
+            "id": "Floor",
+            "x": 206,
+            "y": 969,
+            "flipped": false
+          },
+          {
+            "id": "Floor",
+            "x": 266,
+            "y": 969,
+            "flipped": false
+          },
+          {
+            "id": "FloorEnd",
+            "x": 326,
+            "y": 969,
+            "flipped": false
+          },
+          {
+            "id": "StatueWall",
+            "x": 0,
+            "y": 768,
+            "flipped": false
+          },
+          {
+            "id": "StatueFloor",
+            "x": 26,
+            "y": 768,
+            "flipped": false
+          },
+          {
+            "id": "StatueFloor",
+            "x": 76,
+            "y": 768,
+            "flipped": false
+          },
+          {
+            "id": "StatueFloor",
+            "x": 126,
+            "y": 768,
+            "flipped": false
+          },
+          {
+            "id": "StatueFloor",
+            "x": 176,
+            "y": 768,
+            "flipped": false
+          },
+          {
+            "id": "StatueFloor",
+            "x": 226,
+            "y": 768,
+            "flipped": false
+          },
+          {
+            "id": "StatueFloorEnd",
+            "x": 276,
+            "y": 768,
+            "flipped": false
+          },
+          {
+            "id": "Pillar0",
+            "x": 24,
+            "y": 843,
+            "flipped": false
+          },
+          {
+            "id": "Pillar0",
+            "x": 61,
+            "y": 843,
+            "flipped": false
+          },
+          {
+            "id": "Pillar0",
+            "x": 99,
+            "y": 843,
+            "flipped": false
+          },
+          {
+            "id": "Pillar0",
+            "x": 136,
+            "y": 843,
+            "flipped": false
+          },
+          {
+            "id": "Pillar0",
+            "x": 174,
+            "y": 843,
+            "flipped": false
+          },
+          {
+            "id": "Pillar1",
+            "x": 212,
+            "y": 843,
+            "flipped": false
+          },
+          {
+            "id": "Pillar3",
+            "x": 250,
+            "y": 843,
+            "flipped": false
+          },
+          {
+            "id": "Floor",
+            "x": 554,
+            "y": 673,
+            "flipped": true
+          },
+          {
+            "id": "FloorEnd",
+            "x": 512,
+            "y": 673,
+            "flipped": true
+          },
+          {
+            "id": "StatueWall",
+            "x": 614,
+            "y": 472,
+            "flipped": true
+          },
+          {
+            "id": "StatueFloor",
+            "x": 564,
+            "y": 472,
+            "flipped": true
+          },
+          {
+            "id": "StatueFloor",
+            "x": 614,
+            "y": 472,
+            "flipped": true
+          },
+          {
+            "id": "StatueFloor",
+            "x": 514,
+            "y": 472,
+            "flipped": true
+          },
+          {
+            "id": "StatueFloor",
+            "x": 464,
+            "y": 472,
+            "flipped": true
+          },
+          {
+            "id": "StatueFloor",
+            "x": 414,
+            "y": 472,
+            "flipped": true
+          },
+          {
+            "id": "StatueFloor",
+            "x": 364,
+            "y": 472,
+            "flipped": true
+          },
+          {
+            "id": "StatueFloorEnd",
+            "x": 338,
+            "y": 472,
+            "flipped": true
+          },
+          {
+            "id": "Pillar0",
+            "x": 576,
+            "y": 547,
+            "flipped": true
+          },
+          {
+            "id": "Pillar0",
+            "x": 539,
+            "y": 547,
+            "flipped": true
+          },
+          {
+            "id": "Pillar1",
+            "x": 463,
+            "y": 547,
+            "flipped": true
+          },
+          {
+            "id": "Pillar2",
+            "x": 501,
+            "y": 547,
+            "flipped": true
+          },
+          {
+            "id": "Pillar3",
+            "x": 350,
+            "y": 547,
+            "flipped": true
+          },
+          {
+            "id": "Pillar2",
+            "x": 388,
+            "y": 547,
+            "flipped": true
+          },
+          {
+            "id": "Pillar3",
+            "x": 425,
+            "y": 547,
+            "flipped": true
+          },
+          {
+            "id": "Floor",
+            "x": 554,
+            "y": 368,
+            "flipped": true
+          },
+          {
+            "id": "Floor",
+            "x": 494,
+            "y": 368,
+            "flipped": true
+          },
+          {
+            "id": "FloorEnd",
+            "x": 452,
+            "y": 368,
+            "flipped": true
+          },
+          {
+            "id": "StatueWall",
+            "x": 614,
+            "y": 192,
+            "flipped": true
+          },
+          {
+            "id": "StatueFloor",
+            "x": 564,
+            "y": 192,
+            "flipped": true
+          },
+          {
+            "id": "StatueFloor",
+            "x": 514,
+            "y": 192,
+            "flipped": true
+          },
+          {
+            "id": "StatueFloor",
+            "x": 464,
+            "y": 192,
+            "flipped": true
+          },
+          {
+            "id": "StatueFloor",
+            "x": 414,
+            "y": 192,
+            "flipped": true
+          },
+          {
+            "id": "StatueFloorEnd",
+            "x": 388,
+            "y": 192,
+            "flipped": true
+          },
+          {
+            "id": "PillarSmall",
+            "x": 577,
+            "y": 267,
+            "flipped": true
+          },
+          {
+            "id": "PillarSmall",
+            "x": 539,
+            "y": 267,
+            "flipped": true
+          },
+          {
+            "id": "PillarSmall",
+            "x": 501,
+            "y": 267,
+            "flipped": true
+          },
+          {
+            "id": "PillarSmall",
+            "x": 463,
+            "y": 267,
+            "flipped": true
+          },
+          {
+            "id": "Pillar3",
+            "x": 425,
+            "y": 267,
+            "flipped": true
+          },
+          {
+            "id": "StatueFloor",
+            "x": 26,
+            "y": 192,
+            "flipped": false
+          },
+          {
+            "id": "StatueFloor",
+            "x": -23,
+            "y": 192,
+            "flipped": false
+          },
+          {
+            "id": "StatueFloor",
+            "x": 76,
+            "y": 192,
+            "flipped": false
+          },
+          {
+            "id": "StatueFloor",
+            "x": 126,
+            "y": 192,
+            "flipped": false
+          },
+          {
+            "id": "StatueFloor",
+            "x": 176,
+            "y": 192,
+            "flipped": false
+          },
+          {
+            "id": "StatueFloorEnd",
+            "x": 226,
+            "y": 192,
+            "flipped": false
+          },
+          {
+            "id": "Pillar1",
+            "x": 23,
+            "y": 267,
+            "flipped": false
+          },
+          {
+            "id": "Pillar2",
+            "x": 61,
+            "y": 267,
+            "flipped": false
+          },
+          {
+            "id": "Pillar3",
+            "x": 99,
+            "y": 267,
+            "flipped": false
+          },
+          {
+            "id": "Pillar1",
+            "x": 137,
+            "y": 267,
+            "flipped": false
+          },
+          {
+            "id": "Pillar3",
+            "x": 175,
+            "y": 267,
+            "flipped": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "type": 0,
+        "bounds": {
+          "x": 3518,
+          "y": 0,
+          "w": 640,
+          "h": 360
+        },
+        "objects":[
+          {
+            "id": "Spawn",
+            "x": 0,
+            "y": 33,
+            "flipped": false
+          },
+          {
+            "id": "Wall",
+            "x": 412,
+            "y": 34,
+            "flipped": true
+          }
+        ],
+        "mechanics":[
+          {
+            "type": 1,
+            "x": 200,
+            "y": 335
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "type": 0,
+        "bounds": {
+          "x": 1400,
+          "y": 912,
+          "w": 1478,
+          "h": 360
+        },
+        "objects":[
+          {
+            "id": "Spawn",
+            "x": 0,
+            "y": 33,
+            "flipped": false
+          },
+          {
+            "id": "Spawn",
+            "x": 1395,
+            "y": 33,
+            "flipped": true
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "type": 1,
+        "bounds": {
+          "x": 760,
+          "y": 912,
+          "w": 640,
+          "h": 1342
+        },
+        "objects":[
+          {
+            "id": "Spawn",
+            "x": 0,
+            "y": 1062,
+            "flipped": false
+          },
+          {
+            "id": "Spawn",
+            "x": 614,
+            "y": 1062,
+            "flipped": true
+          },
+          {
+            "id": "Spawn",
+            "x": 614,
+            "y": 250,
+            "flipped": true
+          },
+          {
+            "id": "Platform",
+            "x": 101,
+            "y": 1052,
+            "flipped": true
+          },
+          {
+            "id": "Platform",
+            "x": 144,
+            "y": 1052,
+            "flipped": true
+          },
+          {
+            "id": "Platform",
+            "x": 186,
+            "y": 1052,
+            "flipped": true
+          },
+          {
+            "id": "Platform",
+            "x": 229,
+            "y": 1052,
+            "flipped": true
+          },
+          {
+            "id": "Platform",
+            "x": 271,
+            "y": 1052,
+            "flipped": true
+          },
+          {
+            "id": "Platform",
+            "x": 314,
+            "y": 1052,
+            "flipped": true
+          },
+          {
+            "id": "Platform",
+            "x": 356,
+            "y": 1052,
+            "flipped": true
+          },
+          {
+            "id": "Platform",
+            "x": 399,
+            "y": 1052,
+            "flipped": true
+          },
+          {
+            "id": "Platform",
+            "x": 443,
+            "y": 1052,
+            "flipped": true
+          },
+          {
+            "id": "Platform",
+            "x": 486,
+            "y": 1052,
+            "flipped": true
+          },
+          {
+            "id": "Platform",
+            "x": 528,
+            "y": 1052,
+            "flipped": true
+          },
+          {
+            "id": "Platform",
+            "x": 571,
+            "y": 1052,
+            "flipped": true
+          },
+          {
+            "id": "Platform",
+            "x": 101,
+            "y": 584,
+            "flipped": true
+          },
+          {
+            "id": "Platform",
+            "x": 144,
+            "y": 584,
+            "flipped": true
+          },
+          {
+            "id": "Platform",
+            "x": 186,
+            "y": 584,
+            "flipped": true
+          },
+          {
+            "id": "Platform",
+            "x": 229,
+            "y": 584,
+            "flipped": true
+          },
+          {
+            "id": "Platform",
+            "x": 271,
+            "y": 584,
+            "flipped": true
+          },
+          {
+            "id": "Platform",
+            "x": 314,
+            "y": 584,
+            "flipped": true
+          },
+          {
+            "id": "Platform",
+            "x": 356,
+            "y": 584,
+            "flipped": true
+          },
+          {
+            "id": "Platform",
+            "x": 399,
+            "y": 584,
+            "flipped": true
+          },
+          {
+            "id": "Platform",
+            "x": 443,
+            "y": 584,
+            "flipped": true
+          },
+          {
+            "id": "Platform",
+            "x": 486,
+            "y": 584,
+            "flipped": true
+          },
+          {
+            "id": "Platform",
+            "x": 528,
+            "y": 584,
+            "flipped": true
+          },
+          {
+            "id": "Platform",
+            "x": 571,
+            "y": 584,
+            "flipped": true
+          },
+          {
+            "id": "Platform",
+            "x": 443,
+            "y": 424,
+            "flipped": true
+          },
+          {
+            "id": "Platform",
+            "x": 486,
+            "y": 424,
+            "flipped": true
+          },
+          {
+            "id": "Platform",
+            "x": 528,
+            "y": 424,
+            "flipped": true
+          },
+          {
+            "id": "Platform",
+            "x": 571,
+            "y": 424,
+            "flipped": true
+          },
+          {
+            "id": "Platform",
+            "x": 26,
+            "y": 817,
+            "flipped": false
+          },
+          {
+            "id": "Platform",
+            "x": 26,
+            "y": 817,
+            "flipped": false
+          },
+          {
+            "id": "Platform",
+            "x": 69,
+            "y": 817,
+            "flipped": false
+          },
+          {
+            "id": "Platform",
+            "x": 111,
+            "y": 817,
+            "flipped": false
+          },
+          {
+            "id": "Platform",
+            "x": 154,
+            "y": 817,
+            "flipped": false
+          },
+          {
+            "id": "Platform",
+            "x": 198,
+            "y": 817,
+            "flipped": false
+          },
+          {
+            "id": "Platform",
+            "x": 241,
+            "y": 817,
+            "flipped": false
+          },
+          {
+            "id": "Platform",
+            "x": 283,
+            "y": 817,
+            "flipped": false
+          },
+          {
+            "id": "Platform",
+            "x": 326,
+            "y": 817,
+            "flipped": false
+          },
+          {
+            "id": "Platform",
+            "x": 368,
+            "y": 817,
+            "flipped": false
+          },
+          {
+            "id": "Platform",
+            "x": 411,
+            "y": 817,
+            "flipped": false
+          },
+          {
+            "id": "Platform",
+            "x": 453,
+            "y": 817,
+            "flipped": false
+          },
+          {
+            "id": "Platform",
+            "x": 496,
+            "y": 817,
+            "flipped": false
+          },
+          {
+            "id": "StatueWall",
+            "x": 0,
+            "y": 166,
+            "flipped": false
+          },
+          {
+            "id": "StatueFloor",
+            "x": 26,
+            "y": 166,
+            "flipped": false
+          },
+          {
+            "id": "StatueFloor",
+            "x": 75,
+            "y": 166,
+            "flipped": false
+          },
+          {
+            "id": "StatueFloor",
+            "x": 125,
+            "y": 166,
+            "flipped": false
+          },
+          {
+            "id": "StatueFloor",
+            "x": 175,
+            "y": 166,
+            "flipped": false
+          },
+          {
+            "id": "StatueFloorEnd",
+            "x": 225,
+            "y": 166,
+            "flipped": false
+          },
+          {
+            "id": "Pillar1",
+            "x": 24,
+            "y": 241,
+            "flipped": false
+          },
+          {
+            "id": "Pillar2",
+            "x": 62,
+            "y": 241,
+            "flipped": false
+          },
+          {
+            "id": "Pillar3",
+            "x": 100,
+            "y": 241,
+            "flipped": false
+          },
+          {
+            "id": "Pillar1",
+            "x": 138,
+            "y": 241,
+            "flipped": false
+          },
+          {
+            "id": "Pillar3",
+            "x": 176,
+            "y": 241,
+            "flipped": false
+          }
+        ],
+        "mechanics":[
+          {
+            "type": 0,
+            "x": 320,
+            "y": 1070
+          },
+          {
+            "type": 0,
+            "x": 320,
+            "y": 825
+          },
+          {
+            "type": 0,
+            "x": 320,
+            "y": 602
+          },
+          {
+            "type": 0,
+            "x": 390,
+            "y": 267
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "type": 0,
+        "bounds": {
+          "x": 0,
+          "y": 912,
+          "w": 760,
+          "h": 360
+        },
+        "objects":[
+          {
+            "id": "Wall",
+            "x": 258,
+            "y": 33,
+            "flipped": true
+          },
+          {
+            "id": "Spawn",
+            "x": 677,
+            "y": 33,
+            "flipped": true
+          }
+        ],
+        "mechanics":[
+          {
+            "type": 1,
+            "x": 400,
+            "y": 335
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "type": 2,
+        "bounds": {
+          "x": 1400,
+          "y": 1715,
+          "w": 1113,
+          "h": 360
+        },
+        "objects":[
+          {
+            "id": "Spawn",
+            "x": 0,
+            "y": 0,
+            "flipped": false
+          },
+          {
+            "id": "Spawn",
+            "x": 1052,
+            "y": 0,
+            "flipped": true
+          },
+          {
+            "id": "Chandelier",
+            "x": 618,
+            "y": 35,
+            "flipped": false
+          },
+          {
+            "id": "Bench",
+            "x": 449,
+            "y": -32,
+            "flipped": false
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "type": 0,
+        "bounds": {
+          "x": 2513,
+          "y": 1722,
+          "w": 770,
+          "h": 360
+        },
+        "objects":[
+          {
+            "id": "Spawn",
+            "x": 0,
+            "y": 33,
+            "flipped": false
+          },
+          {
+            "id": "Spawn",
+            "x": 686,
+            "y": 33,
+            "flipped": true
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "type": 2,
+        "bounds": {
+          "x": 3283,
+          "y": 1715,
+          "w": 884,
+          "h": 360
+        },
+        "objects":[
+          {
+            "id": "Spawn",
+            "x": 0,
+            "y": 0,
+            "flipped": false
+          },
+          {
+            "id": "Spawn",
+            "x": 823,
+            "y": 0,
+            "flipped": true
+          },
+          {
+            "id": "Bench",
+            "x": 449,
+            "y": -32,
+            "flipped": false
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "type": 1,
+        "bounds": {
+          "x": 4167,
+          "y": 1724,
+          "w": 640,
+          "h": 1210
+        },
+        "objects":[
+          {
+            "id": "Spawn",
+            "x": 0,
+            "y": 930,
+            "flipped": false
+          },
+          {
+            "id": "Spawn",
+            "x": 614,
+            "y": 930,
+            "flipped": true
+          },
+          {
+            "id": "Spawn",
+            "x": 0,
+            "y": 18,
+            "flipped": false
+          },
+          {
+            "id": "Spawn",
+            "x": 614,
+            "y": 18,
+            "flipped": true
+          },
+          {
+            "id": "Platform",
+            "x": 190,
+            "y": 190,
+            "flipped": false
+          },
+          {
+            "id": "Platform",
+            "x": 233,
+            "y": 190,
+            "flipped": false
+          },
+          {
+            "id": "Platform",
+            "x": 276,
+            "y": 190,
+            "flipped": false
+          },
+          {
+            "id": "Platform",
+            "x": 319,
+            "y": 190,
+            "flipped": false
+          },
+          {
+            "id": "Platform",
+            "x": 362,
+            "y": 190,
+            "flipped": false
+          },
+          {
+            "id": "Platform",
+            "x": 405,
+            "y": 190,
+            "flipped": false
+          },
+          {
+            "id": "Platform",
+            "x": 448,
+            "y": 190,
+            "flipped": false
+          },
+          {
+            "id": "StatueWall",
+            "x": 0,
+            "y": 190,
+            "flipped": false
+          },
+          {
+            "id": "StatueFloor",
+            "x": 26,
+            "y": 190,
+            "flipped": false
+          },
+          {
+            "id": "StatueFloor",
+            "x": 76,
+            "y": 190,
+            "flipped": false
+          },
+          {
+            "id": "StatueFloor",
+            "x": 126,
+            "y": 190,
+            "flipped": false
+          },
+          {
+            "id": "StatueFloorEnd",
+            "x": 176,
+            "y": 190,
+            "flipped": false
+          },
+          {
+            "id": "StatueWall",
+            "x": 614,
+            "y": 190,
+            "flipped": true
+          },
+          {
+            "id": "StatueFloor",
+            "x": 564,
+            "y": 190,
+            "flipped": true
+          },
+          {
+            "id": "StatueFloor",
+            "x": 514,
+            "y": 190,
+            "flipped": true
+          },
+          {
+            "id": "StatueFloor",
+            "x": 464,
+            "y": 190,
+            "flipped": true
+          },
+          {
+            "id": "StatueFloorEnd",
+            "x": 444,
+            "y": 190,
+            "flipped": true
+          },
+          {
+            "id": "Pillar1",
+            "x": 24,
+            "y": 266,
+            "flipped": false
+          },
+          {
+            "id": "Pillar2",
+            "x": 61,
+            "y": 266,
+            "flipped": false
+          },
+          {
+            "id": "Pillar1",
+            "x": 99,
+            "y": 266,
+            "flipped": false
+          },
+          {
+            "id": "Pillar3",
+            "x": 136,
+            "y": 266,
+            "flipped": false
+          },
+          {
+            "id": "Pillar3",
+            "x": 576,
+            "y": 267,
+            "flipped": true
+          },
+          {
+            "id": "Pillar2",
+            "x": 539,
+            "y": 267,
+            "flipped": true
+          },
+          {
+            "id": "Pillar1",
+            "x": 463,
+            "y": 267,
+            "flipped": true
+          },
+          {
+            "id": "Pillar3",
+            "x": 501,
+            "y": 267,
+            "flipped": true
+          }
+        ],
+        "mechanics":[
+          {
+            "type": 0,
+            "x": 320,
+            "y": 950
+          },
+          {
+            "type": 0,
+            "x": 320,
+            "y": 650
+          },
+          {
+            "type": 0,
+            "x": 320,
+            "y": 350
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "type": 0,
+        "bounds": {
+          "x": 4807,
+          "y": 1724,
+          "w": 640,
+          "h": 360
+        },
+        "objects":[
+          {
+            "id": "Spawn",
+            "x": 0,
+            "y": 33,
+            "flipped": false
+          },
+          {
+            "id": "Wall",
+            "x": 412,
+            "y": 33,
+            "flipped": true
+          }
+        ],
+        "mechanics":[
+          {
+            "type": 1,
+            "x": 200,
+            "y": 335
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "type": 0,
+        "bounds": {
+          "x": 3524,
+          "y": 2637,
+          "w": 640,
+          "h": 360
+        },
+        "objects":[
+          {
+            "id": "Spawn",
+            "x": 560,
+            "y": 33,
+            "flipped": true
+          },
+          {
+            "id": "Wall",
+            "x": 60,
+            "y": 33,
+            "flipped": false
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "type": 1,
+        "bounds": {
+          "x": 4807,
+          "y": 2634,
+          "w": 640,
+          "h": 360
+        },
+        "objects":[
+          {
+            "id": "Spawn",
+            "x": 0,
+            "y": 76,
+            "flipped": false
+          }
+        ],
+        "mechanics":[
+          {
+            "type": 0,
+            "x": 135,
+            "y": 100
+          },
+          {
+            "type": 0,
+            "x": 490,
+            "y": 100
+          }
+        ]
+      }
+    ]
+}

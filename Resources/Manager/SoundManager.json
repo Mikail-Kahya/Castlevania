@@ -1,0 +1,380 @@
+[
+    {
+        "id": "ShanoaAttack",
+        "type": "effect",
+        "path": "./Sounds/Shanoa/Attack/",
+        "file": ".wav",
+        "nrSounds": 2,
+        "multiplier": 0.5
+    },
+    {
+        "id": "ShanoaAttackVoice",
+        "type": "effect",
+        "path": "./Sounds/Shanoa/Attack/",
+        "file": ".wav",
+        "nrSounds": 9,
+        "multiplier": 0.3
+    },
+    {
+        "id": "ShanoaSpecial",
+        "type": "effect",
+        "path": "./Sounds/Shanoa/Special/",
+        "file": ".wav",
+        "nrSounds": 7,
+        "multiplier": 0.6
+    },
+    {
+        "id": "ShanoaJump",
+        "type": "effect",
+        "path": "./Sounds/Shanoa/Jump/",
+        "file": ".wav",
+        "nrSounds": 1,
+        "multiplier": 0.2
+    },
+    {
+        "id": "ShanoaJumpVoice",
+        "type": "effect",
+        "path": "./Sounds/Shanoa/Jump/",
+        "file": ".wav",
+        "nrSounds": 2,
+        "multiplier": 0.4
+    },
+    {
+        "id": "ShanoaLand",
+        "type": "effect",
+        "path": "./Sounds/Shanoa/Jump/",
+        "file": ".wav",
+        "nrSounds": 1,
+        "multiplier": 0.2
+    },
+    {
+        "id": "ShanoaPowerUp",
+        "type": "effect",
+        "path": "./Sounds/Shanoa/Special/",
+        "file": ".wav",
+        "nrSounds": 1,
+        "multiplier": 0.35
+    },
+    {
+        "id": "ShanoaPowerUpCharged",
+        "type": "effect",
+        "path": "./Sounds/Shanoa/Special/",
+        "file": ".wav",
+        "nrSounds": 1,
+        "multiplier": 0.35,
+        "loop": true
+    },
+    {
+        "id": "ShanoaPowerUpVoice",
+        "type": "effect",
+        "path": "./Sounds/Shanoa/Special/",
+        "file": ".wav",
+        "nrSounds": 1,
+        "multiplier": 0.35
+    },
+    {
+        "id": "ShanoaDodge",
+        "type": "effect",
+        "path": "./Sounds/Shanoa/Dodge/",
+        "file": ".wav",
+        "nrSounds": 1,
+        "multiplier": 0.3
+    },
+    {
+        "id": "ShanoaDodgeVoice",
+        "type": "effect",
+        "path": "./Sounds/Shanoa/Dodge/",
+        "file": ".wav",
+        "nrSounds": 1,
+        "multiplier": 0.2
+    },
+    {
+        "id": "ShanoaSlide",
+        "type": "effect",
+        "path": "./Sounds/Shanoa/Dodge/",
+        "file": ".wav",
+        "nrSounds": 1,
+        "multiplier": 0.2
+    },
+    {
+        "id": "ShanoaVictory",
+        "type": "effect",
+        "path": "./Sounds/Shanoa/Victory/",
+        "file": ".wav",
+        "nrSounds": 6,
+        "multiplier": 0.4
+    },
+    {
+        "id": "ShanoaHurt",
+        "type": "effect",
+        "path": "./Sounds/Shanoa/Hurt/",
+        "file": ".wav",
+        "nrSounds": 1,
+        "multiplier": 0.25
+    },
+    {
+        "id": "ShanoaHurtVoice",
+        "type": "effect",
+        "path": "./Sounds/Shanoa/Hurt/",
+        "file": ".wav",
+        "nrSounds": 1,
+        "multiplier": 0.3
+    },
+    {
+        "id": "ShanoaDeathVoice",
+        "type": "effect",
+        "path": "./Sounds/Shanoa/Death/",
+        "file": ".wav",
+        "nrSounds": 2,
+        "multiplier": 0.5
+    },
+    {
+        "id": "ShanoaDeath",
+        "type": "effect",
+        "path": "./Sounds/Shanoa/Death/",
+        "file": ".wav",
+        "nrSounds": 3,
+        "multiplier": 0.3
+    },
+    {
+        "id": "EnemyHit",
+        "type": "effect",
+        "path": "./Sounds/Enemy/",
+        "file": ".wav",
+        "nrSounds": 1,
+        "multiplier": 0.3
+    },
+    {
+        "id": "SkeletonDeath",
+        "type": "effect",
+        "path": "./Sounds/Enemy/Skeleton/",
+        "file": ".wav",
+        "nrSounds": 1,
+        "multiplier": 0.4
+    },
+    {
+        "id": "ArthrovertaScream",
+        "type": "effect",
+        "path": "./Sounds/Enemy/Arthroverta/",
+        "file": ".wav",
+        "multiplier": 0.5
+    },
+    {
+        "id": "ArthrovertaCharge",
+        "type": "effect",
+        "path": "./Sounds/Enemy/Arthroverta/",
+        "file": ".wav",
+        "multiplier": 0.1
+    },
+    {
+        "id": "ArthrovertaDeath",
+        "type": "effect",
+        "path": "./Sounds/Enemy/Arthroverta/",
+        "file": ".wav",
+        "multiplier": 0.5
+    },
+    {
+        "id": "ArthrovertaMelee",
+        "type": "effect",
+        "path": "./Sounds/Enemy/Arthroverta/",
+        "file": ".wav",
+        "multiplier": 0.3
+    },
+    {
+        "id": "ArthrovertaOpen",
+        "type": "effect",
+        "path": "./Sounds/Enemy/Arthroverta/",
+        "file": ".wav",
+        "multiplier": 0.3
+    },
+    {
+        "id": "ArthrovertaOpenShutter",
+        "type": "effect",
+        "path": "./Sounds/Enemy/Arthroverta/",
+        "file": ".wav",
+        "multiplier": 0.25
+    },
+    {
+        "id": "ArthrovertaSpawn",
+        "type": "effect",
+        "path": "./Sounds/Enemy/Arthroverta/",
+        "file": ".wav",
+        "multiplier": 0.5
+    },
+    {
+        "id": "ArthrovertaSpit",
+        "type": "effect",
+        "path": "./Sounds/Enemy/Arthroverta/",
+        "file": ".wav",
+        "multiplier": 0.3
+    },
+    {
+        "id": "ArthrovertaWalk",
+        "type": "effect",
+        "path": "./Sounds/Enemy/Arthroverta/",
+        "file": ".wav",
+        "multiplier": 0.2,
+        "loop": true
+    },
+    {
+        "id": "ArthrovertaWallBounce",
+        "type": "effect",
+        "path": "./Sounds/Enemy/Arthroverta/",
+        "file": ".wav",
+        "multiplier": 0.6
+    },
+    {
+        "id": "ZombieHurt",
+        "type": "effect",
+        "path": "./Sounds/Enemy/Zombie/",
+        "file": ".wav",
+        "multiplier": 0.2
+    },
+    {
+        "id": "ZombieSpawn",
+        "type": "effect",
+        "path": "./Sounds/Enemy/Zombie/",
+        "file": ".wav",
+        "multiplier": 0.2
+    },
+    {
+        "id": "ZombieDeath",
+        "type": "effect",
+        "path": "./Sounds/Enemy/Zombie/",
+        "file": ".wav",
+        "multiplier": 0.2
+    },
+    {
+        "id": "BansheeAlert",
+        "type": "effect",
+        "path": "./Sounds/Enemy/Banshee/",
+        "file": ".wav",
+        "multiplier": 0.3
+    },
+    {
+        "id": "BansheeAttack",
+        "type": "effect",
+        "path": "./Sounds/Enemy/Banshee/",
+        "file": ".wav",
+        "multiplier": 0.4
+    },
+    {
+        "id": "BansheeSpawn",
+        "type": "effect",
+        "path": "./Sounds/Enemy/Banshee/",
+        "file": ".wav",
+        "multiplier": 0.5
+    },
+    {
+        "id": "BatAlert",
+        "type": "effect",
+        "path": "./Sounds/Enemy/Bat/",
+        "file": ".wav",
+        "multiplier": 0.4
+    },
+    {
+        "id": "GhostAttack",
+        "type": "effect",
+        "path": "./Sounds/Enemy/Ghost/",
+        "file": ".wav",
+        "multiplier": 0.25
+    },
+    {
+        "id": "GhostDeath",
+        "type": "effect",
+        "path": "./Sounds/Enemy/Ghost/",
+        "file": ".wav",
+        "multiplier": 0.3
+    },
+    {
+        "id": "SavePointUnsaved",
+        "type": "effect",
+        "path": "./Sounds/SavePoint/",
+        "file": ".wav",
+        "multiplier": 0.05,
+        "loop": true
+    },
+    {       
+        "id": "SavePointSaved",
+        "type": "effect",
+        "path": "./Sounds/SavePoint/",
+        "file": ".wav",
+        "multiplier": 0.45
+    },
+    {
+        "id": "SavePointSave",
+        "type": "effect",
+        "path": "./Sounds/SavePoint/",
+        "file": ".wav",
+        "multiplier": 0.45
+    },
+    {
+        "id": "MagnetActivate",
+        "type": "effect",
+        "path": "./Sounds/Magnet/",
+        "file": ".wav",
+        "multiplier": 0.15
+    },
+    {
+        "id": "ManaPickUp",
+        "type": "effect",
+        "path": "./Sounds/PickUp/",
+        "file": ".wav",
+        "multiplier": 0.2
+    },
+    {
+        "id": "LanternBreak",
+        "type": "effect",
+        "path": "./Sounds/Destructable/",
+        "file": ".wav",
+        "multiplier": 0.3
+    },
+    {
+        "id": "CrumblingBreak",
+        "type": "effect",
+        "path": "./Sounds/Particle/",
+        "file": ".wav",
+        "multiplier": 0.05
+    },
+    {
+        "id": "PartBreak",
+        "type": "effect",
+        "path": "./Sounds/Particle/",
+        "file": ".wav",
+        "multiplier": 0.1
+    },
+    {
+        "id": "BloodSpray",
+        "type": "effect",
+        "path": "./Sounds/Particle/",
+        "file": ".wav",
+        "multiplier": 0.1
+    },
+    {
+        "id": "LevelUp",
+        "type": "effect",
+        "path": "./Sounds/UI/",
+        "file": ".wav",
+        "multiplier": 0.4
+    },
+    {
+        "id": "Monastary",
+        "type": "track",
+        "path": "./Sounds/SoundTrack/",
+        "multiplier": 0.2,
+        "tracks": [
+            {
+                "id": "Intro",
+                "path": "",
+                "file": ".wav",
+                "loop": false
+            },
+            {
+                "id": "Loop",
+                "path": "",
+                "file": ".wav",
+                "loop": true
+            }
+        ]
+    }
+]

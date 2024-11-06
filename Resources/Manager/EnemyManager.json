@@ -1,0 +1,391 @@
+{
+    "stats": [
+        {
+            "id": "arthroverta",
+            "hp": 400,
+            "exp": 50,
+            "damage": 21,
+            "defense": 3,
+            "width": 200,
+            "height": 150
+        },
+        {
+            "id": "banshee",
+            "hp": 8,
+            "exp": 4,
+            "damage": 6,
+            "defense": 6,
+            "width": 60,
+            "height": 70
+        },
+        {
+            "id": "bat",
+            "hp": 1,
+            "exp": 1,
+            "damage": 6,
+            "defense": 0,
+            "width": 20,
+            "height": 30
+        },
+        {
+            "id": "ghost",
+            "hp": 5,
+            "exp": 3,
+            "damage": 5,
+            "defense": 0,
+            "width": 33,
+            "height": 33
+        },
+        {
+            "id": "skeletonRanged",
+            "hp": 12,
+            "exp": 3,
+            "damage": 5,
+            "defense": 3,
+            "width": 30,
+            "height": 60
+
+        },
+        {
+            "id": "zombie",
+            "hp": 9,
+            "exp": 1,
+            "damage": 5,
+            "defense": 0,
+            "width": 25,
+            "height": 70
+        } 
+    ],
+    "spawns": [
+        {
+          "room": 0,
+          "spawns":[
+            {
+              "type": "skeletonRanged",
+              "x": 300,
+              "y": 100
+            }, 
+            {
+              "type": "zombie",
+              "x": 500,
+              "y": 100
+            }, 
+            {
+              "type": "skeletonRanged",
+              "x": 600,
+              "y": 100
+            },
+            {
+              "type": "skeletonRanged",
+              "x": 750,
+              "y": 100
+            },
+            {
+              "type": "skeletonRanged",
+              "x": 1300,
+              "y": 100
+            },
+            {
+              "type": "skeletonRanged",
+              "x": 1800,
+              "y": 100
+            }
+          ]
+        },
+        {
+          "room": 1,
+          "spawns": [
+            {
+              "type": "bat",
+              "x": 600,
+              "y": 234
+            },
+            {
+              "type": "bat",
+              "x": 300,
+              "y": 400
+            },
+            {
+              "type": "bat",
+              "x": 200,
+              "y": 660
+            },
+            {
+              "type": "bat",
+              "x": 240,
+              "y": 660
+            },
+            {
+              "type": "bat",
+              "x": 560,
+              "y": 790
+            },
+            {
+              "type": "bat",
+              "x": 400,
+              "y": 920
+            },
+            {
+              "type": "bat",
+              "x": 580,
+              "y": 920
+            },
+            {
+              "type": "bat",
+              "x": 100,
+              "y": 920
+            },
+            {
+              "type": "skeletonRanged",
+              "x": 100,
+              "y": 500
+            }
+          ]
+        },
+        {
+          "room": 2,
+          "spawns": []
+        },
+        {
+          "room": 3,
+          "spawns":[
+            {
+              "type": "skeletonRanged",
+              "x": 300,
+              "y": 100
+            }, 
+            {
+              "type": "zombie",
+              "x": 500,
+              "y": 100
+            },
+            {
+              "type": "zombie",
+              "x": 1000,
+              "y": 100
+            }, 
+            {
+              "type": "skeletonRanged",
+              "x": 600,
+              "y": 100
+            },
+            {
+              "type": "skeletonRanged",
+              "x": 1300,
+              "y": 100
+            },
+            {
+              "type": "skeletonRanged",
+              "x": 1254,
+              "y": 100
+            },
+            {
+              "type": "skeletonRanged",
+              "x": 300,
+              "y": 100
+            },
+            {
+              "type": "zombie",
+              "x": 350,
+              "y": 100
+            },
+            {
+              "type": "zombie",
+              "x": 1100,
+              "y": 100
+            },
+            {
+              "type": "zombie",
+              "x": 500,
+              "y": 100
+            },
+            {
+              "type": "zombie",
+              "x": 600,
+              "y": 100
+            },
+            {
+              "type": "zombie",
+              "x": 800,
+              "y": 100
+            }
+          ]
+        },
+        {
+          "room": 4,
+          "spawns": []
+        },
+        {
+          "room": 5,
+          "spawns": []
+        },
+        {
+          "room": 6,
+          "spawns": [
+            {
+              "type": "zombie",
+              "x": 300,
+              "y": 30
+            },
+            {
+              "type": "zombie",
+              "x": 350,
+              "y": 30
+            },
+            {
+              "type": "zombie",
+              "x": 470,
+              "y": 30
+            },
+            {
+              "type": "zombie",
+              "x": 600,
+              "y": 30
+            },
+            {
+              "type": "zombie",
+              "x": 650,
+              "y": 30
+            },
+            {
+              "type": "zombie",
+              "x": 670,
+              "y": 30
+            },
+            {
+              "type": "zombie",
+              "x": 740,
+              "y": 30
+            },
+            {
+              "type": "zombie",
+              "x": 780,
+              "y": 30
+            },
+            {
+              "type": "zombie",
+              "x": 920,
+              "y": 30
+            }
+          ]
+        },
+        {
+          "room": 7,
+          "spawns": [
+            {
+            "type": "ghost",
+            "x": 200,
+            "y": 300
+            },
+            {
+              "type": "banshee",
+              "x": 300,
+              "y": 100
+            },
+            {
+              "type": "ghost",
+              "x": 500,
+              "y": 200
+            },
+            {
+              "type": "ghost",
+              "x": 450,
+              "y": 100
+            },
+            {
+              "type": "banshee",
+              "x": 600,
+              "y": 150
+            }
+          ]
+        },
+        {
+          "room": 8,
+          "spawns": [
+            {
+              "type": "banshee",
+              "x": 500,
+              "y": 200
+            },
+            {
+              "type": "skeletonRanged",
+              "x": 200,
+              "y": 100
+            },
+            {
+              "type": "skeletonRanged",
+              "x": 300,
+              "y": 100
+            },
+            {
+              "type": "zombie",
+              "x": 600,
+              "y": 100
+            }
+          ]
+        },
+        {
+          "room": 9,
+          "spawns": []
+        },
+        {
+          "room": 10,
+          "spawns": []
+        },
+        {
+          "room": 11,
+          "spawns": [
+            {
+              "type": "banshee",
+              "x": 500,
+              "y": 300
+            },
+            {
+              "type": "banshee",
+              "x": 150,
+              "y": 300
+            },
+            {
+              "type": "banshee",
+              "x": 10,
+              "y": 100
+            },
+            {
+              "type": "zombie",
+              "x": 530,
+              "y": 100
+            },
+            {
+              "type": "zombie",
+              "x": 540,
+              "y": 100
+            },
+            {
+              "type": "zombie",
+              "x": 550,
+              "y": 100
+            },
+            {
+              "type": "zombie",
+              "x": 510,
+              "y": 100
+            },
+            {
+              "type": "zombie",
+              "x": 300,
+              "y": 100
+            }
+          ]
+        },
+        {
+          "room": 12,
+          "spawns": [
+            {
+            "type": "arthroverta",
+            "x": 500,
+            "y": 200
+            }
+          ]
+        }
+    ]
+}

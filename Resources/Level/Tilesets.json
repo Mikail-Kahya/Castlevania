@@ -1,0 +1,177 @@
+{
+  "stone": {
+    "path": "Level/Tileset/Stone/",
+    "tiles": [
+      {
+        "id": "Spawn",
+        "type": ".png"
+      },
+      {
+        "id": "Floor0",
+        "type": ".png"
+      },
+      {
+        "id": "Floor1",
+        "type": ".png"
+      },
+      {
+        "id": "Floor2",
+        "type": ".png"
+      },
+      {
+        "id": "Ceiling0",
+        "type": ".png"
+      },
+      {
+        "id": "Ceiling1",
+        "type": ".png"
+      },
+      {
+        "id": "Background",
+        "type": ".png"
+      },
+      {
+        "id": "Wall",
+        "type": ".png"
+      }
+    ]
+  },
+  "sandstone": {
+    "path": "Level/Tileset/Sandstone/",
+    "tiles": [
+      {
+        "id": "Spawn",
+        "type": ".png"
+      },
+      {
+        "id": "Wall",
+        "type": ".png"
+      },
+      {
+        "id": "Floor",
+        "type": ".png"
+      },
+      {
+        "id": "FloorEnd",
+        "type": ".png"
+      },
+      {
+        "id": "Background",
+        "type": ".png"
+      },
+      {
+        "id": "Platform",
+        "type": ".png"
+      },
+      {
+        "id": "Pole",
+        "type": ".png"
+      },
+      {
+        "id": "Pillar0",
+        "type": ".png"
+      },
+      {
+        "id": "Pillar1",
+        "type": ".png"
+      },
+      {
+        "id": "Pillar2",
+        "type": ".png"
+      },
+      {
+        "id": "Pillar3",
+        "type": ".png"
+      },
+      {
+        "id": "PillarSmall",
+        "type": ".png"
+      },
+      {
+        "id": "StatueFloor",
+        "type": ".png"
+      },
+      {
+        "id": "StatueWall",
+        "type": ".png"
+      },
+      {
+        "id": "StatueFloorEnd",
+        "type": ".png"
+      }
+    ]
+  },
+  "brick": {
+    "path": "Level/Tileset/Brick/",
+    "tiles": [
+      {
+        "id": "Floor0",
+        "type": ".png"
+      },
+      {
+        "id": "Floor1",
+        "type": ".png"
+      },
+      {
+        "id": "Ceiling0",
+        "type": ".png"
+      },
+      {
+        "id": "Ceiling1",
+        "type": ".png"
+      },
+      {
+        "id": "Chandelier",
+        "type": ".png"
+      },
+      {
+        "id": "Bench",
+        "type": ".png",
+        "anim": {
+          "id": "Bench",
+          "x": 0,
+          "y": 0,
+          "frameWidth": 215,
+          "frameHeight": 184,
+          "nrFrames": 6,
+          "nrCols": 3,
+          "nrRows": 2,
+          "fps": 7,
+          "isLooping": true
+        }
+      },
+      {
+        "id": "Background",
+        "type": ".png",
+        "anim": {
+          "id": "Background",
+          "x": 0,
+          "y": 0,
+          "frameWidth": 492,
+          "frameHeight": 335,
+          "nrFrames": 4,
+          "nrCols": 2,
+          "nrRows": 2,
+          "fps": 12,
+          "isLooping": true
+        }
+      },
+      {
+        "id": "Spawn",
+        "type": ".png",
+        "anim": {
+          "id": "Spawn",
+          "x": 0,
+          "y": 0,
+          "frameWidth": 60,
+          "frameHeight": 336,
+          "nrFrames": 6,
+          "nrCols": 6,
+          "nrRows": 1,
+          "fps": 12,
+          "isLooping": true
+        }
+      }
+    ]
+  }
+}

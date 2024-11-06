@@ -1,0 +1,161 @@
+[
+    {
+      "room": 0,
+      "spawns": [
+        {
+          "type": "lantern",
+          "x": 100,
+          "y": 26
+        },
+        {
+          "type": "lantern",
+          "x": 800,
+          "y": 26
+        },
+        {
+          "type": "lantern",
+          "x": 1400,
+          "y": 26
+        },
+        {
+          "type": "lantern",
+          "x": 1850,
+          "y": 26
+        }
+      ]
+    },
+    {
+      "room": 1,
+      "spawns": [
+        {
+          "type": "lantern",
+          "x": 150,
+          "y": 28
+        },
+        {
+          "type": "lantern",
+          "x": 90,
+          "y": 242
+        },
+        {
+          "type": "lantern",
+          "x": 580,
+          "y": 842
+        },
+        {
+          "type": "lantern",
+          "x": 580,
+          "y": 1018
+        }
+      ]
+    },
+    {
+      "room": 2,
+      "spawns": []
+    },
+    {
+      "room": 3,
+      "spawns": [
+        {
+          "type": "lantern",
+          "x": 971,
+          "y": 25
+        },
+        {
+          "type": "lantern",
+          "x": 450,
+          "y": 25
+        },
+        {
+          "type": "lantern",
+          "x": 971,
+          "y": 25
+        },
+        {
+          "type": "lantern",
+          "x": 1150,
+          "y": 25
+        }
+      ]
+    },
+    {
+      "room": 4,
+      "spawns": [
+        {
+          "type": "lantern",
+          "x": 80,
+          "y": 1177
+        },
+        {
+          "type": "lantern",
+          "x": 200,
+          "y": 1177
+        }
+      ]
+    },
+    {
+      "room": 5,
+      "spawns": []
+    },
+    {
+      "room": 6,
+      "spawns": []
+    },
+    {
+      "room": 7,
+      "spawns": [
+        {
+          "type": "lantern",
+          "x": 375,
+          "y": 28
+        },
+        {
+          "type": "lantern",
+          "x": 580,
+          "y": 28
+        }
+      ]
+    },
+    {
+      "room": 8,
+      "spawns": [
+        {
+          "type": "lantern",
+          "x": 340,
+          "y": 23
+        }
+      ]
+    },
+    {
+      "room": 9,
+      "spawns": []
+    },
+    {
+      "room": 10,
+      "spawns": []
+    },
+    {
+      "room": 11,
+      "spawns": [
+        {
+          "type": "lantern",
+          "x": 200,
+          "y": 28
+        },
+        {
+          "type": "lantern",
+          "x": 160,
+          "y": 28
+        },
+        {
+          "type": "lantern",
+          "x": 250,
+          "y": 28
+        }
+      ]
+    },
+    {
+      "room": 12,
+      "spawns": []
+    }
+  ]

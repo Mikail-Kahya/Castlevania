@@ -1,0 +1,699 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Game Files">
+      <UniqueIdentifier>{c989cfa0-7898-470a-b12e-61ec95ff1839}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine Files">
+      <UniqueIdentifier>{499ee9e0-083f-49f6-b33e-fe468d1f1d86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Level Classes">
+      <UniqueIdentifier>{b36235cf-ed3a-4160-bcdd-9c32bff4a649}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\GameObjects Classes">
+      <UniqueIdentifier>{b32786ed-5cfa-4a8c-806b-fe2147871939}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Camera Classes">
+      <UniqueIdentifier>{e41d453e-3b85-4c7b-8d9d-d11b73ab14bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Manager Classes">
+      <UniqueIdentifier>{86a748ab-b856-4bd2-95b5-e5b919842312}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Particle Classes">
+      <UniqueIdentifier>{9ffe9acc-5405-49fb-a317-d3aeb37917e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Particle Classes\Types">
+      <UniqueIdentifier>{663ab10f-9288-4e16-b7b0-139137449367}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Level Classes\Room Classes">
+      <UniqueIdentifier>{50b00997-2fe8-404c-a221-39fd19dddbd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Level Classes\Room Classes\Types">
+      <UniqueIdentifier>{46095a52-ebbe-4f1c-a8ab-0aeee3e6733d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Particle Classes\Branch Classes">
+      <UniqueIdentifier>{ceb2812e-5039-4945-bcdc-53c552c6f76c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Particle Classes\Branch Classes\Dynamic">
+      <UniqueIdentifier>{b8b98b9d-dafa-4774-9774-8147f7a129bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Particle Classes\Branch Classes\Dynamic\Complex">
+      <UniqueIdentifier>{ea63574d-e3c9-4126-ad72-588885567788}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Particle Classes\Branch Classes\Floating">
+      <UniqueIdentifier>{bb3853f9-194a-43a9-b2eb-835bd147380e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Particle Classes\Branch Classes\Floating\Complex">
+      <UniqueIdentifier>{b1f833f0-288a-495e-ada3-6660a1e85535}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\GameObjects Classes\Destructable Classes">
+      <UniqueIdentifier>{116132af-8420-4f68-89c3-d21a32fe7168}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\GameObjects Classes\Destructable Classes\Types">
+      <UniqueIdentifier>{1fb1ce58-fb08-4d96-9d91-b415baa1baad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\GameObjects Classes\Entity Classes">
+      <UniqueIdentifier>{1df3d983-70b6-4ee6-b931-5f6d01b7d1fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\GameObjects Classes\PickUp Classes">
+      <UniqueIdentifier>{b5bcebbc-35e1-410d-83f3-32fdf9376734}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\GameObjects Classes\PickUp Classes\Types">
+      <UniqueIdentifier>{8d2c93e8-f758-4961-ab39-098500c8f2d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\GameObjects Classes\Entity Classes\Enemy Classes">
+      <UniqueIdentifier>{58d2a6e3-356d-4522-a024-502205ef5dda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\GameObjects Classes\Entity Classes\Enemy Classes\Types">
+      <UniqueIdentifier>{db70967e-c565-4fbc-9c9e-6de7f20861b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\GameObjects Classes\Entity Classes\Player Classes">
+      <UniqueIdentifier>{b6aadd77-7872-401a-aca7-aefd7e18b942}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\GameObjects Classes\Entity Classes\Player Classes\States">
+      <UniqueIdentifier>{eb79f27d-3b74-4b1a-8b6f-94ba21b806e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\GameObjects Classes\Entity Classes\Player Classes\States\SubStates">
+      <UniqueIdentifier>{c44eed2e-8dcb-49a9-86da-202ad2a256c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\GameObjects Classes\Entity Classes\Player Classes\Equipment">
+      <UniqueIdentifier>{4b4b2f7f-6bf9-4175-a7fd-e9e7b8a59498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\GameObjects Classes\Entity Classes\Player Classes\Equipment\Weapons">
+      <UniqueIdentifier>{1a01cdbb-29dc-4bba-b9f3-706c6d7e15f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\GameObjects Classes\Entity Classes\Enemy Classes\Types\Bat Classes">
+      <UniqueIdentifier>{9d08b60a-387c-47b4-a051-df28938f9cd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\GameObjects Classes\Entity Classes\Enemy Classes\Types\Skeleton Classes">
+      <UniqueIdentifier>{d7364679-ef81-4435-a2e4-1b2cb3fa578c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\GameObjects Classes\Entity Classes\Enemy Classes\Types\Zombie Classes">
+      <UniqueIdentifier>{be044e74-200e-4434-9e41-4e289a2742b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\GameObjects Classes\Destructable Classes\Types\Lantern Classes">
+      <UniqueIdentifier>{880ea1cd-7eb2-4e56-878c-d4a13f57c3c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\GameObjects Classes\Entity Classes\Enemy Classes\Types\Ghost Classes">
+      <UniqueIdentifier>{7d4a06f6-ed89-46e1-9dcc-b0714e581ab1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\GameObjects Classes\Entity Classes\Enemy Classes\Types\Arthroverta Classes">
+      <UniqueIdentifier>{af097cad-1aab-4ab1-b01c-ee6f43271dd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\GameObjects Classes\Entity Classes\Equipment Classes">
+      <UniqueIdentifier>{7734c890-28b2-4bf1-85f7-30e58710861e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\GameObjects Classes\Entity Classes\Enemy Classes\Types\Banshee Classes">
+      <UniqueIdentifier>{bb18e83e-9256-45aa-b862-9f62d7900c8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\GameObjects Classes\MapMechanic Classes">
+      <UniqueIdentifier>{25856eeb-d1d7-4089-bab5-fd6db8439c96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\GameObjects Classes\MapMechanic Classes\Types">
+      <UniqueIdentifier>{4f358ea7-9938-4724-9cd6-9bd292dfc31f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Functor">
+      <UniqueIdentifier>{7f39a9ac-d03e-4fce-af29-4187555754e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\HUD Classes">
+      <UniqueIdentifier>{ab0ace7b-e5df-474c-81a0-5e692dbf7ee5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\HUD Classes\Elements">
+      <UniqueIdentifier>{2b9a334a-5756-482f-8ef0-cde8550b2f93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\HUD Classes\Elements\HUDElement">
+      <UniqueIdentifier>{db249897-c3c0-48a3-8249-9bc9acc3edce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\HUD Classes\Elements\HUDElement\Derived">
+      <UniqueIdentifier>{40a86145-c7ae-4c15-9593-0a48c1720f5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\HUD Classes\Elements\GUIElement">
+      <UniqueIdentifier>{bd730c08-6071-44ea-9bf7-571144dca668}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\HUD Classes\Elements\GUIElement\Derived">
+      <UniqueIdentifier>{7e4d5062-0c26-4b53-b6cb-52a1a9fa4fd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\HUD Classes\Elements\GUIElement\Branch Classes">
+      <UniqueIdentifier>{6dda6501-ce0a-4837-82aa-eb39b9563467}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\HUD Classes\Elements\GUIElement\Branch Classes\SubClasses">
+      <UniqueIdentifier>{094d6d4c-48e9-45fa-b7c6-82ceb9c55165}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Sound Classes">
+      <UniqueIdentifier>{91d1af4f-78d6-43bb-9c08-fd655e67f651}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Data Classes">
+      <UniqueIdentifier>{0cdf1ce0-25a9-476a-89f2-6ab5a2c22390}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Data Classes\Sprite Classes">
+      <UniqueIdentifier>{021ee06e-0890-47b2-b604-750bd1fa7b69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Data Classes\Sprite Classes\Animated">
+      <UniqueIdentifier>{d182e4aa-35cd-4973-8955-d6dabd9b41e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Data Classes\Sprite Classes\Static">
+      <UniqueIdentifier>{e274a6dc-b22c-4104-860f-490ddf733f57}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Engine Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Engine Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Game Files\GameObjects Classes\Entity Classes\Player Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Game Files\GameObjects Classes\Entity Classes\Enemy Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Game Files\GameObjects Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Game Files\Level Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Room.cpp">
+      <Filter>Game Files\Level Classes\Room Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Game Files\Camera Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Game Files\GameObjects Classes\Entity Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Bat.cpp">
+      <Filter>Game Files\GameObjects Classes\Entity Classes\Enemy Classes\Types\Bat Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="BatState.cpp">
+      <Filter>Game Files\GameObjects Classes\Entity Classes\Enemy Classes\Types\Bat Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyState.cpp">
+      <Filter>Game Files\GameObjects Classes\Entity Classes\Enemy Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="InAirState.cpp">
+      <Filter>Game Files\GameObjects Classes\Entity Classes\Player Classes\States\SubStates</Filter>
+    </ClCompile>
+    <ClCompile Include="OnGroundState.cpp">
+      <Filter>Game Files\GameObjects Classes\Entity Classes\Player Classes\States\SubStates</Filter>
+    </ClCompile>
+    <ClCompile Include="InCrouchState.cpp">
+      <Filter>Game Files\GameObjects Classes\Entity Classes\Player Classes\States\SubStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Sandstone.cpp">
+      <Filter>Game Files\Level Classes\Room Classes\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="Stone.cpp">
+      <Filter>Game Files\Level Classes\Room Classes\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="InAttackState.cpp">
+      <Filter>Game Files\GameObjects Classes\Entity Classes\Player Classes\States\SubStates</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerState.cpp">
+      <Filter>Game Files\GameObjects Classes\Entity Classes\Player Classes\States</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerWeapon.cpp">
+      <Filter>Game Files\GameObjects Classes\Entity Classes\Player Classes\Equipment</Filter>
+    </ClCompile>
+    <ClCompile Include="Confodore.cpp">
+      <Filter>Game Files\GameObjects Classes\Entity Classes\Player Classes\Equipment\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="PickUp.cpp">
+      <Filter>Game Files\GameObjects Classes\PickUp Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Mana.cpp">
+      <Filter>Game Files\GameObjects Classes\PickUp Classes\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="PickUpManager.cpp">
+      <Filter>Game Files\Manager Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyManager.cpp">
+      <Filter>Game Files\Manager Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Destructable.cpp">
+      <Filter>Game Files\GameObjects Classes\Destructable Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="DestructableManager.cpp">
+      <Filter>Game Files\Manager Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityState.cpp">
+      <Filter>Game Files\GameObjects Classes\Entity Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>Game Files\Particle Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicParticle.cpp">
+      <Filter>Game Files\Particle Classes\Branch Classes\Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="FloatingParticle.cpp">
+      <Filter>Game Files\Particle Classes\Branch Classes\Floating</Filter>
+    </ClCompile>
+    <ClCompile Include="BloodSplatter.cpp">
+      <Filter>Game Files\Particle Classes\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="Explosion.cpp">
+      <Filter>Game Files\Particle Classes\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="BreakingParticle.cpp">
+      <Filter>Game Files\Particle Classes\Branch Classes\Dynamic\Complex</Filter>
+    </ClCompile>
+    <ClCompile Include="RepeatingParticle.cpp">
+      <Filter>Game Files\Particle Classes\Branch Classes\Floating\Complex</Filter>
+    </ClCompile>
+    <ClCompile Include="Lantern.cpp">
+      <Filter>Game Files\GameObjects Classes\Destructable Classes\Types\Lantern Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleManager.cpp">
+      <Filter>Game Files\Manager Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="SkeletonRanged.cpp">
+      <Filter>Game Files\GameObjects Classes\Entity Classes\Enemy Classes\Types\Skeleton Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="SkeletonRangedState.cpp">
+      <Filter>Game Files\GameObjects Classes\Entity Classes\Enemy Classes\Types\Skeleton Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Bone.cpp">
+      <Filter>Game Files\GameObjects Classes\Entity Classes\Enemy Classes\Types\Skeleton Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Exploding.cpp">
+      <Filter>Game Files\Particle Classes\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="Crumbling.cpp">
+      <Filter>Game Files\Particle Classes\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="Dust.cpp">
+      <Filter>Game Files\Particle Classes\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIFrame.cpp">
+      <Filter>Game Files\HUD Classes\Elements\GUIElement\Branch Classes\SubClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIStat.cpp">
+      <Filter>Game Files\HUD Classes\Elements\GUIElement\Branch Classes\SubClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="Zombie.cpp">
+      <Filter>Game Files\GameObjects Classes\Entity Classes\Enemy Classes\Types\Zombie Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="ZombieState.cpp">
+      <Filter>Game Files\GameObjects Classes\Entity Classes\Enemy Classes\Types\Zombie Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Brick.cpp">
+      <Filter>Game Files\Level Classes\Room Classes\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="Magnet.cpp">
+      <Filter>Game Files\GameObjects Classes\MapMechanic Classes\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="MapMechanic.cpp">
+      <Filter>Game Files\GameObjects Classes\MapMechanic Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Ghost.cpp">
+      <Filter>Game Files\GameObjects Classes\Entity Classes\Enemy Classes\Types\Ghost Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="GhostState.cpp">
+      <Filter>Game Files\GameObjects Classes\Entity Classes\Enemy Classes\Types\Ghost Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Banshee.cpp">
+      <Filter>Game Files\GameObjects Classes\Entity Classes\Enemy Classes\Types\Banshee Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="BansheeState.cpp">
+      <Filter>Game Files\GameObjects Classes\Entity Classes\Enemy Classes\Types\Banshee Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="BansheeScream.cpp">
+      <Filter>Game Files\GameObjects Classes\Entity Classes\Enemy Classes\Types\Banshee Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Arthroverta.cpp">
+      <Filter>Game Files\GameObjects Classes\Entity Classes\Enemy Classes\Types\Arthroverta Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="ArthrovertaState.cpp">
+      <Filter>Game Files\GameObjects Classes\Entity Classes\Enemy Classes\Types\Arthroverta Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Web.cpp">
+      <Filter>Game Files\GameObjects Classes\Entity Classes\Enemy Classes\Types\Arthroverta Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Equipment.cpp">
+      <Filter>Game Files\GameObjects Classes\Entity Classes\Equipment Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>Game Files\GameObjects Classes\Entity Classes\Equipment Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="ThrowableWeapon.cpp">
+      <Filter>Game Files\GameObjects Classes\Entity Classes\Equipment Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Game Files\Manager Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="ArthrovertaClaw.cpp">
+      <Filter>Game Files\GameObjects Classes\Entity Classes\Enemy Classes\Types\Arthroverta Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="SavePoint.cpp">
+      <Filter>Game Files\GameObjects Classes\MapMechanic Classes\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="TriggerBox.cpp">
+      <Filter>Game Files\GameObjects Classes\MapMechanic Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyingParticle.cpp">
+      <Filter>Game Files\Particle Classes\Branch Classes\Floating\Complex</Filter>
+    </ClCompile>
+    <ClCompile Include="OrbPart.cpp">
+      <Filter>Game Files\Particle Classes\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="SpecialAttack.cpp">
+      <Filter>Game Files\GameObjects Classes\Entity Classes\Player Classes\Equipment\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Sparkle.cpp">
+      <Filter>Game Files\Particle Classes\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="RisingSparkle.cpp">
+      <Filter>Game Files\Particle Classes\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="DamageNumber.cpp">
+      <Filter>Game Files\Particle Classes\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Game Files\Manager Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundTrack.cpp">
+      <Filter>Game Files\Sound Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIBar.cpp">
+      <Filter>Game Files\HUD Classes\Elements\GUIElement\Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="GUICounter.cpp">
+      <Filter>Game Files\HUD Classes\Elements\GUIElement\Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIMana.cpp">
+      <Filter>Game Files\HUD Classes\Elements\GUIElement\Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIPrompt.cpp">
+      <Filter>Game Files\HUD Classes\Elements\GUIElement\Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="HUD.cpp">
+      <Filter>Game Files\HUD Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="StatBar.cpp">
+      <Filter>Game Files\HUD Classes\Elements\HUDElement\Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniMap.cpp">
+      <Filter>Game Files\HUD Classes\Elements\HUDElement\Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Game Files\Data Classes\Sprite Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimatedSprite.cpp">
+      <Filter>Game Files\Data Classes\Sprite Classes\Animated</Filter>
+    </ClCompile>
+    <ClCompile Include="Avatar.cpp">
+      <Filter>Game Files\Data Classes\Sprite Classes\Animated</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicSprite.cpp">
+      <Filter>Game Files\Data Classes\Sprite Classes\Static</Filter>
+    </ClCompile>
+    <ClCompile Include="TextSprite.cpp">
+      <Filter>Game Files\Data Classes\Sprite Classes\Static</Filter>
+    </ClCompile>
+    <ClCompile Include="RigidBody.cpp">
+      <Filter>Game Files\Data Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelCalculator.cpp">
+      <Filter>Game Files\Functor</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Engine Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Game Files\GameObjects Classes\Entity Classes\Player Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Game Files\GameObjects Classes\Entity Classes\Enemy Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Game Files\GameObjects Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Game Files\Level Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Room.h">
+      <Filter>Game Files\Level Classes\Room Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Game Files\Camera Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Game Files\GameObjects Classes\Entity Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Bat.h">
+      <Filter>Game Files\GameObjects Classes\Entity Classes\Enemy Classes\Types\Bat Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="BatState.h">
+      <Filter>Game Files\GameObjects Classes\Entity Classes\Enemy Classes\Types\Bat Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyState.h">
+      <Filter>Game Files\GameObjects Classes\Entity Classes\Enemy Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="InAirState.h">
+      <Filter>Game Files\GameObjects Classes\Entity Classes\Player Classes\States\SubStates</Filter>
+    </ClInclude>
+    <ClInclude Include="OnGroundState.h">
+      <Filter>Game Files\GameObjects Classes\Entity Classes\Player Classes\States\SubStates</Filter>
+    </ClInclude>
+    <ClInclude Include="InCrouchState.h">
+      <Filter>Game Files\GameObjects Classes\Entity Classes\Player Classes\States\SubStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Sandstone.h">
+      <Filter>Game Files\Level Classes\Room Classes\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Stone.h">
+      <Filter>Game Files\Level Classes\Room Classes\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="InAttackState.h">
+      <Filter>Game Files\GameObjects Classes\Entity Classes\Player Classes\States\SubStates</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerState.h">
+      <Filter>Game Files\GameObjects Classes\Entity Classes\Player Classes\States</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerWeapon.h">
+      <Filter>Game Files\GameObjects Classes\Entity Classes\Player Classes\Equipment</Filter>
+    </ClInclude>
+    <ClInclude Include="Confodore.h">
+      <Filter>Game Files\GameObjects Classes\Entity Classes\Player Classes\Equipment\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="PickUp.h">
+      <Filter>Game Files\GameObjects Classes\PickUp Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Mana.h">
+      <Filter>Game Files\GameObjects Classes\PickUp Classes\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="PickUpManager.h">
+      <Filter>Game Files\Manager Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyManager.h">
+      <Filter>Game Files\Manager Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Destructable.h">
+      <Filter>Game Files\GameObjects Classes\Destructable Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="DestructableManager.h">
+      <Filter>Game Files\Manager Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityState.h">
+      <Filter>Game Files\GameObjects Classes\Entity Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="debugPch.h">
+      <Filter>Engine Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Game Files\Particle Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicParticle.h">
+      <Filter>Game Files\Particle Classes\Branch Classes\Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="FloatingParticle.h">
+      <Filter>Game Files\Particle Classes\Branch Classes\Floating</Filter>
+    </ClInclude>
+    <ClInclude Include="BloodSplatter.h">
+      <Filter>Game Files\Particle Classes\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Explosion.h">
+      <Filter>Game Files\Particle Classes\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="BreakingParticle.h">
+      <Filter>Game Files\Particle Classes\Branch Classes\Dynamic\Complex</Filter>
+    </ClInclude>
+    <ClInclude Include="FadingParticle.h">
+      <Filter>Game Files\Particle Classes\Branch Classes\Floating\Complex</Filter>
+    </ClInclude>
+    <ClInclude Include="RepeatingParticle.h">
+      <Filter>Game Files\Particle Classes\Branch Classes\Floating\Complex</Filter>
+    </ClInclude>
+    <ClInclude Include="Lantern.h">
+      <Filter>Game Files\GameObjects Classes\Destructable Classes\Types\Lantern Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleManager.h">
+      <Filter>Game Files\Manager Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="SkeletonRanged.h">
+      <Filter>Game Files\GameObjects Classes\Entity Classes\Enemy Classes\Types\Skeleton Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="SkeletonRangedState.h">
+      <Filter>Game Files\GameObjects Classes\Entity Classes\Enemy Classes\Types\Skeleton Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Bone.h">
+      <Filter>Game Files\GameObjects Classes\Entity Classes\Enemy Classes\Types\Skeleton Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Exploding.h">
+      <Filter>Game Files\Particle Classes\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Crumbling.h">
+      <Filter>Game Files\Particle Classes\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Dust.h">
+      <Filter>Game Files\Particle Classes\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIElement.h">
+      <Filter>Game Files\HUD Classes\Elements\GUIElement\Branch Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIStat.h">
+      <Filter>Game Files\HUD Classes\Elements\GUIElement\Branch Classes\SubClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIFrame.h">
+      <Filter>Game Files\HUD Classes\Elements\GUIElement\Branch Classes\SubClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Zombie.h">
+      <Filter>Game Files\GameObjects Classes\Entity Classes\Enemy Classes\Types\Zombie Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ZombieState.h">
+      <Filter>Game Files\GameObjects Classes\Entity Classes\Enemy Classes\Types\Zombie Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Brick.h">
+      <Filter>Game Files\Level Classes\Room Classes\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Magnet.h">
+      <Filter>Game Files\GameObjects Classes\MapMechanic Classes\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="MapMechanic.h">
+      <Filter>Game Files\GameObjects Classes\MapMechanic Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Ghost.h">
+      <Filter>Game Files\GameObjects Classes\Entity Classes\Enemy Classes\Types\Ghost Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="GhostState.h">
+      <Filter>Game Files\GameObjects Classes\Entity Classes\Enemy Classes\Types\Ghost Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Banshee.h">
+      <Filter>Game Files\GameObjects Classes\Entity Classes\Enemy Classes\Types\Banshee Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="BansheeState.h">
+      <Filter>Game Files\GameObjects Classes\Entity Classes\Enemy Classes\Types\Banshee Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="BansheeScream.h">
+      <Filter>Game Files\GameObjects Classes\Entity Classes\Enemy Classes\Types\Banshee Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Arthroverta.h">
+      <Filter>Game Files\GameObjects Classes\Entity Classes\Enemy Classes\Types\Arthroverta Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ArthrovertaState.h">
+      <Filter>Game Files\GameObjects Classes\Entity Classes\Enemy Classes\Types\Arthroverta Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Web.h">
+      <Filter>Game Files\GameObjects Classes\Entity Classes\Enemy Classes\Types\Arthroverta Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>Game Files\GameObjects Classes\Entity Classes\Equipment Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Equipment.h">
+      <Filter>Game Files\GameObjects Classes\Entity Classes\Equipment Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ThrowableWeapon.h">
+      <Filter>Game Files\GameObjects Classes\Entity Classes\Equipment Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Game Files\Manager Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ArthrovertaClaw.h">
+      <Filter>Game Files\GameObjects Classes\Entity Classes\Enemy Classes\Types\Arthroverta Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="SavePoint.h">
+      <Filter>Game Files\GameObjects Classes\MapMechanic Classes\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="TriggerBox.h">
+      <Filter>Game Files\GameObjects Classes\MapMechanic Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyingParticle.h">
+      <Filter>Game Files\Particle Classes\Branch Classes\Floating\Complex</Filter>
+    </ClInclude>
+    <ClInclude Include="OrbPart.h">
+      <Filter>Game Files\Particle Classes\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelCalculator.h">
+      <Filter>Game Files\Functor</Filter>
+    </ClInclude>
+    <ClInclude Include="SpecialAttack.h">
+      <Filter>Game Files\GameObjects Classes\Entity Classes\Player Classes\Equipment\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Sparkle.h">
+      <Filter>Game Files\Particle Classes\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="RisingSparkle.h">
+      <Filter>Game Files\Particle Classes\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="DamageNumber.h">
+      <Filter>Game Files\Particle Classes\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Game Files\Manager Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundTrack.h">
+      <Filter>Game Files\Sound Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIBar.h">
+      <Filter>Game Files\HUD Classes\Elements\GUIElement\Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="GUICounter.h">
+      <Filter>Game Files\HUD Classes\Elements\GUIElement\Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIMana.h">
+      <Filter>Game Files\HUD Classes\Elements\GUIElement\Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIPrompt.h">
+      <Filter>Game Files\HUD Classes\Elements\GUIElement\Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="HUD.h">
+      <Filter>Game Files\HUD Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="HUDElement.h">
+      <Filter>Game Files\HUD Classes\Elements\HUDElement</Filter>
+    </ClInclude>
+    <ClInclude Include="StatBar.h">
+      <Filter>Game Files\HUD Classes\Elements\HUDElement\Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniMap.h">
+      <Filter>Game Files\HUD Classes\Elements\HUDElement\Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Game Files\Data Classes\Sprite Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimatedSprite.h">
+      <Filter>Game Files\Data Classes\Sprite Classes\Animated</Filter>
+    </ClInclude>
+    <ClInclude Include="Avatar.h">
+      <Filter>Game Files\Data Classes\Sprite Classes\Animated</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicSprite.h">
+      <Filter>Game Files\Data Classes\Sprite Classes\Static</Filter>
+    </ClInclude>
+    <ClInclude Include="TextSprite.h">
+      <Filter>Game Files\Data Classes\Sprite Classes\Static</Filter>
+    </ClInclude>
+    <ClInclude Include="RigidBody.h">
+      <Filter>Game Files\Data Classes</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

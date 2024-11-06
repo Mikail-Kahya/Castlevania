@@ -1,0 +1,45 @@
+[
+    {
+        "type": "statBar",
+        "GUIElements":[
+            { 
+                "id": "frame", 
+                "type": "frame",
+                "src": { "x": 0, "y": 53, "w": 226, "h": 53 },
+                "pos": { "x": 12, "y": 603 }
+            },
+            { 
+                "id": "health", 
+                "type": "bar",
+                "src": { "x": 0, "y": 60, "w": 156, "h": 7 },
+                "pos": { "x": 134, "y": 677 }
+            },
+            { 
+                "id": "stamina", 
+                "type": "bar",
+                "src": { "x": 0, "y": 68, "w": 155, "h": 8 },
+                "pos": { "x": 134, "y": 653 }
+            },
+            { 
+                "id": "mana", 
+                "type": "mana",
+                "src": { "x": 156, "y": 67, "w": 23, "h": 14 },
+                "pos": { "x": 12, "y": 608 }
+            },
+            { 
+                "id": "manaCounter", 
+                "type": "counter",
+                "pos": { "x": 100, "y": 603 }
+            },
+            { 
+                "id": "healthCounter", 
+                "type": "counter",
+                "pos": { "x": 75, "y": 656 }
+            }
+        ]
+    },
+    {
+        "type": "miniMap",
+        "position": { "x": 1020, "y": 520 }
+    }
+]

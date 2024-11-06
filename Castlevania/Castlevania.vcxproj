@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{e5155ff3-f68d-4a05-99d3-83d937efb30d}</ProjectGuid>
+    <RootNamespace>Castlevania</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>$(SolutionDir)\Libraries\SDLTtf\SDL2_ttf-2.20.2\include;$(SolutionDir)\Libraries\SDLMixer\SDL2_mixer-2.6.3\include;$(SolutionDir)\Libraries\SDLImage\SDL2_image-2.6.3\include;$(SolutionDir)\Libraries\SDLMain\SDL2-2.26.3\include;$(SolutionDir)\Engine;$(IncludePath);$(SolutionDir)\Libraries\nlohmann\</IncludePath>
+    <LibraryPath>$(SolutionDir)\x64\Debug;$(SolutionDir)\Libraries\SDLTtf\SDL2_ttf-2.20.2\lib\x64;$(SolutionDir)\Libraries\SDLMixer\SDL2_mixer-2.6.3\lib\x64;$(SolutionDir)\Libraries\SDLImage\SDL2_image-2.6.3\lib\x64;$(SolutionDir)\Libraries\SDLMain\SDL2-2.26.3\lib\x64;$(LibraryPath);</LibraryPath>
+    <CustomBuildAfterTargets>BuildCompile</CustomBuildAfterTargets>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Create</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Engine.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <CustomBuildStep>
+      <Command>
+      </Command>
+      <Message>Copying dll files to executable</Message>
+    </CustomBuildStep>
+    <PostBuildEvent>
+      <Command>xcopy "$(SolutionDir)Libraries\SDLMain\SDL2-2.26.3\lib\x64\*.dll" "$(TargetDir)" /y /d
+xcopy "$(SolutionDir)Libraries\SDLImage\SDL2_image-2.6.3\lib\x64\*.dll" "$(TargetDir)" /y /d
+xcopy "$(SolutionDir)Libraries\SDLMixer\SDL2_mixer-2.6.3\lib\x64\*.dll" "$(TargetDir)" /y /d
+xcopy "$(SolutionDir)Libraries\SDLTtf\SDL2_ttf-2.20.2\lib\x64\*.dll" "$(TargetDir)" /y /d
+xcopy "$(SolutionDir)Resources\*.*" "$(TargetDir)" /y /d /s</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Create</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Engine.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AnimatedSprite.cpp" />
+    <ClCompile Include="Arthroverta.cpp" />
+    <ClCompile Include="ArthrovertaClaw.cpp" />
+    <ClCompile Include="ArthrovertaState.cpp" />
+    <ClCompile Include="Avatar.cpp" />
+    <ClCompile Include="Banshee.cpp" />
+    <ClCompile Include="BansheeScream.cpp" />
+    <ClCompile Include="BansheeState.cpp" />
+    <ClCompile Include="BasicSprite.cpp" />
+    <ClCompile Include="Brick.cpp" />
+    <ClCompile Include="DamageNumber.cpp" />
+    <ClCompile Include="HUD.cpp" />
+    <ClCompile Include="MiniMap.cpp" />
+    <ClCompile Include="OrbPart.cpp" />
+    <ClCompile Include="FlyingParticle.cpp" />
+    <ClCompile Include="Ghost.cpp" />
+    <ClCompile Include="GhostState.cpp" />
+    <ClCompile Include="Magnet.cpp" />
+    <ClCompile Include="MapMechanic.cpp" />
+    <ClCompile Include="RigidBody.cpp" />
+    <ClCompile Include="RisingSparkle.cpp" />
+    <ClCompile Include="SavePoint.cpp" />
+    <ClCompile Include="SoundManager.cpp" />
+    <ClCompile Include="SoundTrack.cpp" />
+    <ClCompile Include="LevelCalculator.cpp" />
+    <ClCompile Include="Sparkle.cpp" />
+    <ClCompile Include="SpecialAttack.cpp" />
+    <ClCompile Include="Sprite.cpp" />
+    <ClCompile Include="TextSprite.cpp" />
+    <ClCompile Include="TextureManager.cpp" />
+    <ClCompile Include="ThrowableWeapon.cpp" />
+    <ClCompile Include="TriggerBox.cpp" />
+    <ClCompile Include="GUIBar.cpp" />
+    <ClCompile Include="BloodSplatter.cpp" />
+    <ClCompile Include="Bone.cpp" />
+    <ClCompile Include="Destructable.cpp" />
+    <ClCompile Include="DestructableManager.cpp" />
+    <ClCompile Include="Dust.cpp" />
+    <ClCompile Include="DynamicParticle.cpp" />
+    <ClCompile Include="EnemyManager.cpp" />
+    <ClCompile Include="BreakingParticle.cpp" />
+    <ClCompile Include="Explosion.cpp" />
+    <ClCompile Include="FloatingParticle.cpp" />
+    <ClCompile Include="InAttackState.cpp" />
+    <ClCompile Include="BatState.cpp" />
+    <ClCompile Include="Confodore.cpp" />
+    <ClCompile Include="InCrouchState.cpp" />
+    <ClCompile Include="EnemyState.cpp" />
+    <ClCompile Include="Entity.cpp" />
+    <ClCompile Include="Lantern.cpp" />
+    <ClCompile Include="Exploding.cpp" />
+    <ClCompile Include="Mana.cpp" />
+    <ClCompile Include="Particle.cpp" />
+    <ClCompile Include="ParticleManager.cpp" />
+    <ClCompile Include="PickUp.cpp" />
+    <ClCompile Include="PickUpManager.cpp" />
+    <ClCompile Include="PlayerWeapon.cpp" />
+    <ClCompile Include="EntityState.cpp" />
+    <ClCompile Include="RepeatingParticle.cpp" />
+    <ClCompile Include="Crumbling.cpp" />
+    <ClCompile Include="SkeletonRanged.cpp" />
+    <ClCompile Include="SkeletonRangedState.cpp" />
+    <ClCompile Include="GUICounter.cpp" />
+    <ClCompile Include="GUIMana.cpp" />
+    <ClCompile Include="GUIPrompt.cpp" />
+    <ClCompile Include="GUIStat.cpp" />
+    <ClCompile Include="StatBar.cpp" />
+    <ClCompile Include="GUIFrame.cpp" />
+    <ClCompile Include="Weapon.cpp" />
+    <ClCompile Include="InAirState.cpp" />
+    <ClCompile Include="Bat.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="OnGroundState.cpp" />
+    <ClCompile Include="PlayerState.cpp" />
+    <ClCompile Include="Sandstone.cpp" />
+    <ClCompile Include="Stone.cpp" />
+    <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="Equipment.cpp" />
+    <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="Level.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Room.cpp" />
+    <ClCompile Include="Web.cpp" />
+    <ClCompile Include="Zombie.cpp" />
+    <ClCompile Include="ZombieState.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AnimatedSprite.h" />
+    <ClInclude Include="Arthroverta.h" />
+    <ClInclude Include="ArthrovertaClaw.h" />
+    <ClInclude Include="ArthrovertaState.h" />
+    <ClInclude Include="Avatar.h" />
+    <ClInclude Include="Banshee.h" />
+    <ClInclude Include="BansheeScream.h" />
+    <ClInclude Include="BansheeState.h" />
+    <ClInclude Include="BasicSprite.h" />
+    <ClInclude Include="Brick.h" />
+    <ClInclude Include="DamageNumber.h" />
+    <ClInclude Include="HUD.h" />
+    <ClInclude Include="HUDElement.h" />
+    <ClInclude Include="LevelCalculator.h" />
+    <ClInclude Include="MiniMap.h" />
+    <ClInclude Include="OrbPart.h" />
+    <ClInclude Include="FlyingParticle.h" />
+    <ClInclude Include="Ghost.h" />
+    <ClInclude Include="GhostState.h" />
+    <ClInclude Include="Magnet.h" />
+    <ClInclude Include="MapMechanic.h" />
+    <ClInclude Include="RigidBody.h" />
+    <ClInclude Include="RisingSparkle.h" />
+    <ClInclude Include="SavePoint.h" />
+    <ClInclude Include="SoundManager.h" />
+    <ClInclude Include="SoundTrack.h" />
+    <ClInclude Include="Sparkle.h" />
+    <ClInclude Include="SpecialAttack.h" />
+    <ClInclude Include="Sprite.h" />
+    <ClInclude Include="TextSprite.h" />
+    <ClInclude Include="TextureManager.h" />
+    <ClInclude Include="ThrowableWeapon.h" />
+    <ClInclude Include="TriggerBox.h" />
+    <ClInclude Include="GUIBar.h" />
+    <ClInclude Include="BloodSplatter.h" />
+    <ClInclude Include="Bone.h" />
+    <ClInclude Include="Destructable.h" />
+    <ClInclude Include="DestructableManager.h" />
+    <ClInclude Include="Dust.h" />
+    <ClInclude Include="DynamicParticle.h" />
+    <ClInclude Include="EnemyManager.h" />
+    <ClInclude Include="debugPch.h" />
+    <ClInclude Include="BreakingParticle.h" />
+    <ClInclude Include="Explosion.h" />
+    <ClInclude Include="FadingParticle.h" />
+    <ClInclude Include="FloatingParticle.h" />
+    <ClInclude Include="Lantern.h" />
+    <ClInclude Include="Exploding.h" />
+    <ClInclude Include="Mana.h" />
+    <ClInclude Include="Particle.h" />
+    <ClInclude Include="ParticleManager.h" />
+    <ClInclude Include="PickUp.h" />
+    <ClInclude Include="PickUpManager.h" />
+    <ClInclude Include="InAttackState.h" />
+    <ClInclude Include="BatState.h" />
+    <ClInclude Include="Confodore.h" />
+    <ClInclude Include="InCrouchState.h" />
+    <ClInclude Include="EnemyState.h" />
+    <ClInclude Include="Entity.h" />
+    <ClInclude Include="PlayerWeapon.h" />
+    <ClInclude Include="RepeatingParticle.h" />
+    <ClInclude Include="Crumbling.h" />
+    <ClInclude Include="SkeletonRanged.h" />
+    <ClInclude Include="SkeletonRangedState.h" />
+    <ClInclude Include="StatBar.h" />
+    <ClInclude Include="GUICounter.h" />
+    <ClInclude Include="GUIElement.h" />
+    <ClInclude Include="GUIFrame.h" />
+    <ClInclude Include="GUIMana.h" />
+    <ClInclude Include="GUIPrompt.h" />
+    <ClInclude Include="GUIStat.h" />
+    <ClInclude Include="Weapon.h" />
+    <ClInclude Include="OnGroundState.h" />
+    <ClInclude Include="Bat.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="InAirState.h" />
+    <ClInclude Include="PlayerState.h" />
+    <ClInclude Include="Sandstone.h" />
+    <ClInclude Include="Stone.h" />
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="Equipment.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="Level.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="EntityState.h" />
+    <ClInclude Include="Room.h" />
+    <ClInclude Include="Web.h" />
+    <ClInclude Include="Zombie.h" />
+    <ClInclude Include="ZombieState.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <PropertyGroup>
+    <LocalDebuggerWorkingDirectory>$(TargetDir)</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>$(SolutionDir)\Libraries\SDLTtf\SDL2_ttf-2.20.2\include;$(SolutionDir)\Libraries\SDLMixer\SDL2_mixer-2.6.3\include;$(SolutionDir)\Libraries\SDLImage\SDL2_image-2.6.3\include;$(SolutionDir)\Libraries\SDLMain\SDL2-2.26.3\include;$(SolutionDir)\Engine;$(IncludePath);$(SolutionDir)\Libraries\nlohmann\</IncludePath>
+    <LibraryPath>$(SolutionDir)\x64\Release;$(SolutionDir)\Libraries\SDLTtf\SDL2_ttf-2.20.2\lib\x64;$(SolutionDir)\Libraries\SDLMixer\SDL2_mixer-2.6.3\lib\x64;$(SolutionDir)\Libraries\SDLImage\SDL2_image-2.6.3\lib\x64;$(SolutionDir)\Libraries\SDLMain\SDL2-2.26.3\lib\x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+</Project>

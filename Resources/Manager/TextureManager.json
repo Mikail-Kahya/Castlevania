@@ -1,0 +1,936 @@
+[
+    {
+        "id": "player",
+        "path": "./Player/Shanoa.png",
+        "scale": 1.6,
+        "animations": [
+          {
+            "id": "idle",
+            "x": 0,
+            "y": 0,
+            "frameWidth": 70,
+            "frameHeight": 70,
+            "nrFrames": 8,
+            "nrCols": 8,
+            "nrRows": 1,
+            "fps": 12,
+            "isLooping": true
+          },
+          {
+            "id": "run",
+            "x": 0,
+            "y": 70,
+            "frameWidth": 70,
+            "frameHeight": 70,
+            "nrFrames": 18,
+            "nrCols": 9,
+            "nrRows": 2,
+            "fps": 20,
+            "isLooping": true
+          },
+          {
+            "id": "turn",
+            "x": 0,
+            "y": 210,
+            "frameWidth": 70,
+            "frameHeight": 70,
+            "nrFrames": 8,
+            "nrCols": 8,
+            "nrRows": 1,
+            "fps": 20,
+            "isLooping": false
+          },
+          {
+            "id": "startRun",
+            "x": 0,
+            "y": 280,
+            "frameWidth": 70,
+            "frameHeight": 70,
+            "nrFrames": 10,
+            "nrCols": 10,
+            "nrRows": 1,
+            "fps": 20,
+            "isLooping": false
+          },
+          {
+            "id": "stopRun",
+            "x": 0,
+            "y": 350,
+            "frameWidth": 70,
+            "frameHeight": 70,
+            "nrFrames": 6,
+            "nrCols": 6,
+            "nrRows": 1,
+            "fps": 16,
+            "isLooping": false
+          },
+          {
+            "id": "jump",
+            "x": 0,
+            "y": 420,
+            "frameWidth": 70,
+            "frameHeight": 70,
+            "nrFrames": 10,
+            "nrCols": 10,
+            "nrRows": 1,
+            "fps": 12,
+            "isLooping": false
+          },
+          {
+            "id": "fall",
+            "x": 0,
+            "y": 490,
+            "frameWidth": 70,
+            "frameHeight": 70,
+            "nrFrames": 4,
+            "nrCols": 4,
+            "nrRows": 1,
+            "fps": 12,
+            "isLooping": true
+          },
+          {
+            "id": "hardLand",
+            "x": 0,
+            "y": 560,
+            "frameWidth": 70,
+            "frameHeight": 70,
+            "nrFrames": 13,
+            "nrCols": 6,
+            "nrRows": 2,
+            "fps": 26,
+            "isLooping": false
+          },
+          {
+            "id": "crouch",
+            "x": 0,
+            "y": 560,
+            "frameWidth": 70,
+            "frameHeight": 70,
+            "nrFrames": 12,
+            "nrCols": 6,
+            "nrRows": 2,
+            "fps": 22,
+            "isLooping": false
+          },
+          {
+            "id": "crouched",
+            "x": 350,
+            "y": 630,
+            "frameWidth": 70,
+            "frameHeight": 70,
+            "nrFrames": 1,
+            "nrCols": 1,
+            "nrRows": 1,
+            "fps": 1,
+            "isLooping": false
+          },
+          {
+            "id": "powerup",
+            "x": 0,
+            "y": 700,
+            "frameWidth": 70,
+            "frameHeight": 70,
+            "nrFrames": 8,
+            "nrCols": 8,
+            "nrRows": 1,
+            "fps": 16,
+            "isLooping": false
+          },
+          {
+            "id": "poweredup",
+            "x": 140,
+            "y": 700,
+            "frameWidth": 70,
+            "frameHeight": 70,
+            "nrFrames": 6,
+            "nrCols": 6,
+            "nrRows": 1,
+            "fps": 16,
+            "isLooping": true
+          },
+          {
+            "id": "dodge",
+            "x": 0,
+            "y": 770,
+            "frameWidth": 70,
+            "frameHeight": 70,
+            "nrFrames": 7,
+            "nrCols": 7,
+            "nrRows": 1,
+            "fps": 18,
+            "isLooping": false
+          },
+          {
+            "id": "death",
+            "x": 0,
+            "y": 840,
+            "frameWidth": 70,
+            "frameHeight": 70,
+            "nrFrames": 24,
+            "nrCols": 8,
+            "nrRows": 3,
+            "fps": 12,
+            "isLooping": false
+          },
+          {
+            "id": "hurt",
+            "x": 560,
+            "y": 840,
+            "frameWidth": 70,
+            "frameHeight": 70,
+            "nrFrames": 1,
+            "nrCols": 1,
+            "nrRows": 1,
+            "fps": 1,
+            "isLooping": false
+          },
+          {
+            "id": "slide",
+            "x": 0,
+            "y": 1050,
+            "frameWidth": 70,
+            "frameHeight": 70,
+            "nrFrames": 7,
+            "nrCols": 7,
+            "nrRows": 1,
+            "fps": 20,
+            "isLooping": false
+          },
+          {
+            "id": "left",
+            "x": 0,
+            "y": 1120,
+            "frameWidth": 70,
+            "frameHeight": 70,
+            "nrFrames": 8,
+            "nrCols": 8,
+            "nrRows": 1,
+            "fps": 20,
+            "isLooping": false
+          },
+          {
+            "id": "right",
+            "x": 0,
+            "y": 1190,
+            "frameWidth": 70,
+            "frameHeight": 70,
+            "nrFrames": 8,
+            "nrCols": 8,
+            "nrRows": 1,
+            "fps": 20,
+            "isLooping": false
+          },
+          {
+            "id": "leftCrouch",
+            "x": 0,
+            "y": 1260,
+            "frameWidth": 70,
+            "frameHeight": 70,
+            "nrFrames": 8,
+            "nrCols": 8,
+            "nrRows": 1,
+            "fps": 20,
+            "isLooping": false
+          },
+          {
+            "id": "rightCrouch",
+            "x": 0,
+            "y": 1330,
+            "frameWidth": 70,
+            "frameHeight": 70,
+            "nrFrames": 8,
+            "nrCols": 8,
+            "nrRows": 1,
+            "fps": 20,
+            "isLooping": false
+          },
+          {
+            "id": "leftAir",
+            "x": 0,
+            "y": 1400,
+            "frameWidth": 70,
+            "frameHeight": 70,
+            "nrFrames": 8,
+            "nrCols": 8,
+            "nrRows": 1,
+            "fps": 20,
+            "isLooping": false
+          },
+          {
+            "id": "rightAir",
+            "x": 0,
+            "y": 1470,
+            "frameWidth": 70,
+            "frameHeight": 70,
+            "nrFrames": 8,
+            "nrCols": 8,
+            "nrRows": 1,
+            "fps": 20,
+            "isLooping": false
+          }
+        ]
+    },
+    {
+        "id": "confodore",
+        "path": "./Player/Weapons/Confodore.png",
+        "scale": 1.5
+    },
+    {
+        "id": "arthroverta",
+        "path": "./Enemy/Img/Arthroverta.png",
+        "scale": 1.7,
+        "animations":[
+          {
+            "id": "roll",
+            "x": 1107,
+            "y": 0,
+            "frameWidth": 112,
+            "frameHeight": 116,
+            "nrFrames": 1,
+            "nrCols": 1,
+            "nrRows": 1,
+            "fps": 12,
+            "isLooping": false
+          },
+          {
+            "id": "openShutter",
+            "x": 0,
+            "y": 0,
+            "frameWidth": 158,
+            "frameHeight": 106,
+            "nrFrames": 14,
+            "nrCols": 7,
+            "nrRows": 2,
+            "fps": 12,
+            "isLooping": false
+          },
+          {
+            "id": "idle",
+            "x": 0,
+            "y": 756,
+            "frameWidth": 159,
+            "frameHeight": 106,
+            "nrFrames": 14,
+            "nrCols": 7,
+            "nrRows": 2,
+            "fps": 12,
+            "isLooping": true
+          },
+          {
+            "id": "walk",
+            "x": 0,
+            "y": 212,
+            "frameWidth": 174,
+            "frameHeight": 109,
+            "nrFrames": 28,
+            "nrCols": 7,
+            "nrRows": 4,
+            "fps": 12,
+            "isLooping": true
+          },
+          {
+            "id": "scream",
+            "x": 0,
+            "y": 648,
+            "frameWidth": 156,
+            "frameHeight": 108,
+            "nrFrames": 7,
+            "nrCols": 7,
+            "nrRows": 1,
+            "fps": 12,
+            "isLooping": false
+          },
+          {
+            "id": "melee",
+            "x": 1093,
+            "y": 648,
+            "frameWidth": 155,
+            "frameHeight": 106,
+            "nrFrames": 1,
+            "nrCols": 1,
+            "nrRows": 1,
+            "fps": 12,
+            "isLooping": false
+          }
+        ]
+    },
+    {
+      "id": "arthrovertaClaw",
+      "path": "./Enemy/Img/ArthrovertaClaw.png",
+      "scale": 1.7,
+      "animations": [
+        {
+          "id": "swing",
+          "x": 0,
+          "y": 0,
+          "frameWidth": 110,
+          "frameHeight": 149,
+          "nrFrames": 12,
+          "nrCols": 6,
+          "nrRows": 2,
+          "fps": 12,
+          "isLooping": false
+        }
+      ]
+    },
+    {
+      "id": "arthrovertaClawActive",
+      "path": "./Enemy/Img/ArthrovertaClawActive.png",
+      "scale": 1.7
+    },
+    {
+        "id": "arthrovertaWeb",
+        "path": "./Enemy/Img/ArthrovertaWeb.png",
+        "scale": 1.7,
+        "animations": [
+          {
+            "id": "up",
+            "x": 0,
+            "y": 40,
+            "frameWidth": 29,
+            "frameHeight": 14,
+            "nrFrames": 3,
+            "nrCols": 3,
+            "nrRows": 1,
+            "fps": 12,
+            "isLooping": true
+          },
+          {
+            "id": "open",
+            "x": 0,
+            "y": 54,
+            "frameWidth": 45,
+            "frameHeight": 49,
+            "nrFrames": 6,
+            "nrCols": 3,
+            "nrRows": 2,
+            "fps": 20,
+            "isLooping": false
+          },
+          {
+            "id": "fall",
+            "x": 88,
+            "y": 0,
+            "frameWidth": 48,
+            "frameHeight": 54,
+            "nrFrames": 1,
+            "nrCols": 1,
+            "nrRows": 1,
+            "fps": 12,
+            "isLooping": false
+          }
+        ]
+    },
+    {
+        "id": "banshee",
+        "path": "./Enemy/Img/Banshee.png",
+        "scale": 1.7,
+        "animations": [
+          {
+            "id": "appear",
+            "x": 385,
+            "y": 225,
+            "frameWidth": 55,
+            "frameHeight": 75,
+            "nrFrames": 1,
+            "nrCols": 1,
+            "nrRows": 1,
+            "fps": 1,
+            "isLooping": false
+          },
+          {
+            "id": "wakeUp",
+            "x": 0,
+            "y": 0,
+            "frameWidth": 55,
+            "frameHeight": 75,
+            "nrFrames": 20,
+            "nrCols": 10,
+            "nrRows": 2,
+            "fps": 20,
+            "isLooping": false
+          },
+          {
+            "id": "move",
+            "x": 0,
+            "y": 150,
+            "frameWidth": 55,
+            "frameHeight": 75,
+            "nrFrames": 8,
+            "nrCols": 8,
+            "nrRows": 1,
+            "fps": 10,
+            "isLooping": true
+          },
+          {
+            "id": "attackStart",
+            "x": 0,
+            "y": 225,
+            "frameWidth": 55,
+            "frameHeight": 75,
+            "nrFrames": 7,
+            "nrCols": 7,
+            "nrRows": 1,
+            "fps": 20,
+            "isLooping": false
+          },
+          {
+            "id": "attackEnd",
+            "x": 0,
+            "y": 300,
+            "frameWidth": 55,
+            "frameHeight": 75,
+            "nrFrames": 7,
+            "nrCols": 7,
+            "nrRows": 1,
+            "fps": 20,
+            "isLooping": false
+          },
+          {
+            "id": "attack",
+            "x": 0,
+            "y": 375,
+            "frameWidth": 55,
+            "frameHeight": 75,
+            "nrFrames": 8,
+            "nrCols": 8,
+            "nrRows": 1,
+            "fps": 20,
+            "isLooping": true
+          }
+        ]
+    },
+    {
+        "id": "bansheeScream",
+        "path": "./Enemy/Img/BansheeScream.png",
+        "scale": 1.5  
+    },
+    {
+        "id": "bat",
+        "path": "./Enemy/Img/Bat.png",
+        "scale": 2.5,
+        "animations": [
+          {
+            "id": "idle",
+            "x": 0,
+            "y": 0,
+            "frameWidth": 16,
+            "frameHeight": 16,
+            "nrFrames": 1,
+            "nrCols": 1,
+            "nrRows": 1,
+            "fps": 1,
+            "isLooping": false
+          },
+          {
+            "id": "alert",
+            "x": 16,
+            "y": 0,
+            "frameWidth": 16,
+            "frameHeight": 16,
+            "nrFrames": 2,
+            "nrCols": 2,
+            "nrRows": 1,
+            "fps": 2,
+            "isLooping": false
+          },
+          {
+            "id": "attack",
+            "x": 48,
+            "y": 0,
+            "frameWidth": 16,
+            "frameHeight": 49,
+            "nrFrames": 13,
+            "nrCols": 13,
+            "nrRows": 1,
+            "fps": 24,
+            "isLooping": true
+          }
+        ]
+    },
+    {
+        "id": "ghost",
+        "path": "./Enemy/Img/Ghost.png",
+        "scale": 1.7,
+        "animations": [
+            {
+                "id": "idle",
+                "x": 0,
+                "y": 0,
+                "frameWidth": 33,
+                "frameHeight": 33,
+                "nrFrames": 6,
+                "nrCols": 4,
+                "nrRows": 2,
+                "fps": 20,
+                "isLooping": true
+            },
+            {
+                "id": "alert",
+                "x": 0,
+                "y": 66,
+                "frameWidth": 33,
+                "frameHeight": 33,
+                "nrFrames": 4,
+                "nrCols": 4,
+                "nrRows": 1,
+                "fps": 10,
+                "isLooping": false
+            },
+            {
+                "id": "attack",
+                "x": 0,
+                "y": 99,
+                "frameWidth": 33,
+                "frameHeight": 33,
+                "nrFrames": 4,
+                "nrCols": 4,
+                "nrRows": 1,
+                "fps": 20,
+                "isLooping": true
+            },
+            {
+                "id": "prepare",
+                "x": 0,
+                "y": 132,
+                "frameWidth": 33,
+                "frameHeight": 33,
+                "nrFrames": 12,
+                "nrCols": 4,
+                "nrRows": 3,
+                "fps": 20,
+                "isLooping": true
+            },
+            {
+                "id": "die",
+                "x": 0,
+                "y": 231,
+                "frameWidth": 33,
+                "frameHeight": 33,
+                "nrFrames": 4,
+                "nrCols": 4,
+                "nrRows": 1,
+                "fps": 6,
+                "isLooping": false
+            }
+        ]
+    },
+    {
+        "id": "skeletonRanged",
+        "path": "./Enemy/Img/SkeletonRanged.png",
+        "scale": 1.7,
+        "animations": [
+            {
+                "id": "walk",
+                "x": 0,
+                "y": 0,
+                "frameWidth": 50,
+                "frameHeight": 50,
+                "nrFrames": 6,
+                "nrCols": 6,
+                "nrRows": 1,
+                "fps": 16,
+                "isLooping": true
+            },
+            {
+                "id": "attack",
+                "x": 0,
+                "y": 50,
+                "frameWidth": 50,
+                "frameHeight": 50,
+                "nrFrames": 11,
+                "nrCols": 6,
+                "nrRows": 2,
+                "fps": 10,
+                "isLooping": false
+            },
+            {
+                "id": "jump",
+                "x": 0,
+                "y": 150,
+                "frameWidth": 50,
+                "frameHeight": 50,
+                "nrFrames": 4,
+                "nrCols": 4,
+                "nrRows": 1,
+                "fps": 10,
+                "isLooping": false
+            },
+            {
+                "id": "land",
+                "x": 0,
+                "y": 200,
+                "frameWidth": 50,
+                "frameHeight": 50,
+                "nrFrames": 5,
+                "nrCols": 5,
+                "nrRows": 1,
+                "fps": 10,
+                "isLooping": false
+            },
+            {
+                "id": "hurt",
+                "x": 0,
+                "y": 250,
+                "frameWidth": 50,
+                "frameHeight": 50,
+                "nrFrames": 4,
+                "nrCols": 4,
+                "nrRows": 1,
+                "fps": 10,
+                "isLooping": false
+            }
+        ]
+    },
+    {
+        "id": "bone",
+        "path": "./Enemy/Img/bone.png",
+        "scale": 1.7
+    },
+    {
+        "id": "zombie",
+        "path": "./Enemy/Img/Zombie.png",
+        "scale": 1.7,
+        "animations": [
+            {
+                "id": "walk",
+                "x": 0,
+                "y": 0,
+                "frameWidth": 30,
+                "frameHeight": 50,
+                "nrFrames": 12,
+                "nrCols": 6,
+                "nrRows": 2,
+                "fps": 10,
+                "isLooping": true
+            },
+            {
+                "id": "rise",
+                "x": 0,
+                "y": 100,
+                "frameWidth": 30,
+                "frameHeight": 50,
+                "nrFrames": 18,
+                "nrCols": 6,
+                "nrRows": 3,
+                "fps": 10,
+                "isLooping": false
+            },
+            {
+                "id": "die",
+                "x": 0,
+                "y": 250,
+                "frameWidth": 30,
+                "frameHeight": 50,
+                "nrFrames": 42,
+                "nrCols": 6,
+                "nrRows": 8,
+                "fps": 20,
+                "isLooping": false
+            }
+        ]
+    },
+    {
+        "id": "lantern",
+        "path": "./Destructable/Img/Lantern.png",
+        "scale": 0.65,
+        "animations": [
+            {
+                "id": "burn",
+                "x": 0,
+                "y": 0,
+                "frameWidth": 77,
+                "frameHeight": 153,
+                "nrFrames": 8,
+                "nrCols": 8,
+                "nrRows": 1,
+                "fps": 20,
+                "isLooping": true
+            }
+        ]
+    },
+    {
+        "id": "mana",
+        "path": "./PickUp/Mana.png",
+        "scale": 1,
+        "animations": [
+            {
+                "id": "rotate",
+                "x": 0,
+                "y": 0,
+                "frameWidth": 21,
+                "frameHeight": 21,
+                "nrFrames": 8,
+                "nrCols": 8,
+                "nrRows": 1,
+                "fps": 6,
+                "isLooping": true     
+            }
+        ]
+    },
+    {
+        "id": "bloodSplatter",
+        "path": "./Particle/BloodSplatter.png",
+        "scale": 0.5,
+        "animations": [
+            {
+                "id": "splatter",
+                "x": 0,
+                "y": 0,
+                "frameWidth": 127,
+                "frameHeight": 73,
+                "nrFrames": 8,
+                "nrCols": 8,
+                "nrRows": 1,
+                "fps": 20,
+                "isLooping": false   
+            }
+        ]
+    },
+    {
+        "id": "dust",
+        "path": "./Particle/Dust.png",
+        "scale": 1,
+        "animations": [
+            {
+                "id": "crumble",
+                "x": 0,
+                "y": 0,
+                "frameWidth": 33,
+                "frameHeight": 15,
+                "nrFrames": 6,
+                "nrCols": 6,
+                "nrRows": 1,
+                "fps": 16,
+                "isLooping": false  
+            }
+        ]
+    },
+    {
+        "id": "sparkleRed",
+        "path": "./Particle/SparkleRed.png",
+        "scale": 2,
+        "animations": [
+          {
+              "id": "sparkleGrid",
+              "x": 0,
+              "y": 0,
+              "frameWidth": 6,
+              "frameHeight": 6,
+              "nrFrames": 8,
+              "nrCols": 4,
+              "nrRows": 2,
+              "fps": 20,
+              "isLooping": false
+          }
+      ]
+    },
+    {
+        "id": "sparkleBlue",
+        "path": "./Particle/SparkleBlue.png",
+        "scale": 1.5,
+        "animations": [
+          {
+              "id": "sparkleGrid",
+              "x": 0,
+              "y": 0,
+              "frameWidth": 6,
+              "frameHeight": 6,
+              "nrFrames": 8,
+              "nrCols": 4,
+              "nrRows": 2,
+              "fps": 20,
+              "isLooping": false
+          }
+      ]
+    },
+    {
+        "id": "explosion",
+        "path": "./Particle/Explosion.png",
+        "scale": 1,
+        "animations": [
+            {
+                "id": "explode",
+                "x": 0,
+                "y": 0,
+                "frameWidth": 50,
+                "frameHeight": 50,
+                "nrFrames": 11,
+                "nrCols": 11,
+                "nrRows": 1,
+                "fps": 20,
+                "isLooping": false
+            }
+        ]
+    },
+    {
+        "id": "statBar",
+        "path": "./UI/Img/StatBar.png",
+        "scale": 2
+    },
+    {
+      "id": "miniMap",
+      "path": "./UI/Img/MiniMap.png",
+      "scale": 1
+  },
+    {
+        "id": "magnet",
+        "path": "./MapMechanic/Magnet/Magnet.png",
+        "scale": 1,
+        "animations": [
+            {
+                "id": "shimmer",
+                "x": 0,
+                "y": 0,
+                "frameWidth": 22,
+                "frameHeight": 20,
+                "nrFrames": 20,
+                "nrCols": 10,
+                "nrRows": 2,
+                "fps": 15,
+                "isLooping": true
+            }
+        ]
+    },
+    {
+        "id": "magnetEffect",
+        "path": "./MapMechanic/Magnet/MagnetEffect.png",
+        "scale": 1
+    },
+    {
+      "id": "orb",
+      "path": "./MapMechanic/SavePoint/Orb.png",
+      "scale": 2,
+      "animations": [
+          {
+              "id": "saved",
+              "x": 0,
+              "y": 0,
+              "frameWidth": 12,
+              "frameHeight": 12,
+              "nrFrames": 1,
+              "nrCols": 1,
+              "nrRows": 1,
+              "fps": 15, 
+              "isLooping": false
+          },
+          {
+            "id": "unsaved",
+            "x": 12,
+            "y": 0,
+            "frameWidth": 12,
+            "frameHeight": 12,
+            "nrFrames": 9,
+            "nrCols": 9,
+            "nrRows": 1,
+            "fps": 15,
+            "isLooping": true
+        }
+      ]
+  },
+  {
+    "id": "statue",
+    "path": "./MapMechanic/SavePoint/Statue.png",
+    "scale": 2
+  }
+]
